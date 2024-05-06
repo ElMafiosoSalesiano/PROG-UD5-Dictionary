@@ -5,7 +5,7 @@ import java.util.Set;
 
 public class AddWord {
     private static Set<String> wordAdded = new HashSet<>();
-
+    
     private static void wordAdd(String word){
         word.toLowerCase();
         if (word.isEmpty()) {
@@ -14,5 +14,11 @@ public class AddWord {
         else{
             wordAdded.add(word);
         }
+    }
+
+    private static String[] wordCatch(){
+        String[] arrayWords = new String[wordAdded.size()];
+        arrayWords = wordAdded.toArray(arrayWords);
+        return arrayWords;
     }
 }
