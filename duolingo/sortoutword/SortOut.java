@@ -1,9 +1,6 @@
 package duolingo.sortoutword;
-
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.Scanner;
 import java.util.Set;
 
 public class SortOut {
@@ -11,8 +8,7 @@ public class SortOut {
     private static HashMap<String, Set<String>> sortWord = new HashMap<>();
 
 
-    private static void wordAdd(String word){
-        word.toLowerCase();
+    public static void wordAdd(String word){
         if (word.isEmpty()) {
             System.out.println("No introdujo nada");
         }
@@ -21,11 +17,14 @@ public class SortOut {
         }
     }
 
-    public static void sortWordAdd(){
-        final Scanner SCANNER = new Scanner(System.in);
-        switch () {
-            case "a":
-            
+    public static void sortWordAdd(String word){
+        char firstCharacter = word.charAt(0);
+        String firstLetter = Character.toString(firstCharacter);
+        switch (firstLetter) {
+        case "a":
+            SortOut.wordAdd(word);
+            sortWord.put(firstLetter, wordAdded);
+            System.out.println(sortWord);
             break;
         case "b":
            
