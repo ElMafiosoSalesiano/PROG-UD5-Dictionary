@@ -297,7 +297,7 @@ public class SortOut {
                     System.out.println("There arent words by this initial.");
                 }
                 break;
-                case "b":
+            case "b":
                 if (sortWord.containsKey(firstLetter)) {
                     for (String string : wordB) {
                         if (string.equals(eraseWord)) {
@@ -309,7 +309,7 @@ public class SortOut {
                     System.out.println("There arent words by this initial.");
                 }
                 break;
-                case "c":
+            case "c":
                 if (sortWord.containsKey(firstLetter)) {
                     for (String string : wordC) {
                         if (string.equals(eraseWord)) {
@@ -321,7 +321,7 @@ public class SortOut {
                     System.out.println("There arent words by this initial.");
                 }
                 break;
-                case "d":
+            case "d":
                 if (sortWord.containsKey(firstLetter)) {
                     for (String string : wordD) {
                         if (string.equals(eraseWord)) {
@@ -333,7 +333,7 @@ public class SortOut {
                     System.out.println("There arent words by this initial.");
                 }
                 break;
-                case "e":
+            case "e":
                 if (sortWord.containsKey(firstLetter)) {
                     for (String string : wordE) {
                         if (string.equals(eraseWord)) {
@@ -345,7 +345,7 @@ public class SortOut {
                     System.out.println("There arent words by this initial.");
                 }
                 break;
-                case "f":
+            case "f":
                 if (sortWord.containsKey(firstLetter)) {
                     for (String string : wordF) {
                         if (string.equals(eraseWord)) {
@@ -357,7 +357,7 @@ public class SortOut {
                     System.out.println("There arent words by this initial.");
                 }
                 break;
-                case "g":
+            case "g":
                 if (sortWord.containsKey(firstLetter)) {
                     for (String string : wordG) {
                         if (string.equals(eraseWord)) {
@@ -369,7 +369,7 @@ public class SortOut {
                     System.out.println("There arent words by this initial.");
                 }
                 break;
-                case "h":
+            case "h":
                 if (sortWord.containsKey(firstLetter)) {
                     for (String string : wordH) {
                         if (string.equals(eraseWord)) {
@@ -381,7 +381,7 @@ public class SortOut {
                     System.out.println("There arent words by this initial.");
                 }
                 break;
-                case "i":
+            case "i":
                 if (sortWord.containsKey(firstLetter)) {
                     for (String string : wordI) {
                         if (string.equals(eraseWord)) {
@@ -393,7 +393,7 @@ public class SortOut {
                     System.out.println("There arent words by this initial.");
                 }
                 break;
-                case "j":
+            case "j":
                 if (sortWord.containsKey(firstLetter)) {
                     for (String string : wordJ) {
                         if (string.equals(eraseWord)) {
@@ -405,7 +405,7 @@ public class SortOut {
                     System.out.println("There arent words by this initial.");
                 }
                 break;
-                case "k":
+            case "k":
                 if (sortWord.containsKey(firstLetter)) {
                     for (String string : wordK) {
                         if (string.equals(eraseWord)) {
@@ -417,7 +417,7 @@ public class SortOut {
                     System.out.println("There arent words by this initial.");
                 }
                 break;
-                case "m":
+            case "m":
                 if (sortWord.containsKey(firstLetter)) {
                     for (String string : wordM) {
                         if (string.equals(eraseWord)) {
@@ -429,7 +429,7 @@ public class SortOut {
                     System.out.println("There arent words by this initial.");
                 }
                 break;
-                case "n":
+            case "n":
                 if (sortWord.containsKey(firstLetter)) {
                     for (String string : wordN) {
                         if (string.equals(eraseWord)) {
@@ -441,7 +441,7 @@ public class SortOut {
                     System.out.println("There arent words by this initial.");
                 }
                 break;
-                case "ñ":
+            case "ñ":
                 if (sortWord.containsKey(firstLetter)) {
                     for (String string : wordÑ) {
                         if (string.equals(eraseWord)) {
@@ -453,7 +453,7 @@ public class SortOut {
                     System.out.println("There arent words by this initial.");
                 }
                 break;
-                case "o":
+            case "o":
                 if (sortWord.containsKey(firstLetter)) {
                     for (String string : wordO) {
                         if (string.equals(eraseWord)) {
@@ -465,7 +465,7 @@ public class SortOut {
                     System.out.println("There arent words by this initial.");
                 }
                 break;
-                case "p":
+            case "p":
                 if (sortWord.containsKey(firstLetter)) {
                     for (String string : wordP) {
                         if (string.equals(eraseWord)) {
@@ -477,7 +477,7 @@ public class SortOut {
                     System.out.println("There arent words by this initial.");
                 }
                 break;
-                case "q":
+            case "q":
                 if (sortWord.containsKey(firstLetter)) {
                     for (String string : wordQ) {
                         if (string.equals(eraseWord)) {
@@ -489,7 +489,7 @@ public class SortOut {
                     System.out.println("There arent words by this initial.");
                 }
                 break;
-                case "r":
+            case "r":
                 if (sortWord.containsKey(firstLetter)) {
                     for (String string : wordR) {
                         if (string.equals(eraseWord)) {
@@ -501,7 +501,7 @@ public class SortOut {
                     System.out.println("There arent words by this initial.");
                 }
                 break;
-                case "s":
+            case "s":
                 if (sortWord.containsKey(firstLetter)) {
                     for (String string : wordS) {
                         if (string.equals(eraseWord)) {
@@ -513,7 +513,7 @@ public class SortOut {
                     System.out.println("There arent words by this initial.");
                 }
                 break;
-                case "t":
+            case "t":
                 if (sortWord.containsKey(firstLetter)) {
                     for (String string : wordT) {
                         if (string.equals(eraseWord)) {
@@ -525,7 +525,7 @@ public class SortOut {
                     System.out.println("There arent words by this initial.");
                 }
                 break;
-                case "u":
+            case "u":
                 if (sortWord.containsKey(firstLetter)) {
                     for (String string : wordU) {
                         if (string.equals(eraseWord)) {
@@ -537,7 +537,7 @@ public class SortOut {
                     System.out.println("There arent words by this initial.");
                 }
                 break;
-                case "v":
+            case "v":
                 if (sortWord.containsKey(firstLetter)) {
                     for (String string : wordV) {
                         if (string.equals(eraseWord)) {
@@ -549,7 +549,7 @@ public class SortOut {
                     System.out.println("There arent words by this initial.");
                 }
                 break;
-                case "w":
+            case "w":
                 if (sortWord.containsKey(firstLetter)) {
                     for (String string : wordW) {
                         if (string.equals(eraseWord)) {
@@ -561,7 +561,7 @@ public class SortOut {
                     System.out.println("There arent words by this initial.");
                 }
                 break;
-                case "x":
+            case "x":
                 if (sortWord.containsKey(firstLetter)) {
                     for (String string : wordX) {
                         if (string.equals(eraseWord)) {
@@ -572,7 +572,7 @@ public class SortOut {
                 } else {
                     System.out.println("There arent words by this initial.");
                 }
-                case "y":
+            case "y":
                 if (sortWord.containsKey(firstLetter)) {
                     for (String string : wordY) {
                         if (string.equals(eraseWord)) {
@@ -584,7 +584,7 @@ public class SortOut {
                     System.out.println("There arent words by this initial.");
                 }
                 break;
-                case "z":
+            case "z":
                 if (sortWord.containsKey(firstLetter)) {
                     for (String string : wordZ) {
                         if (string.equals(eraseWord)) {
