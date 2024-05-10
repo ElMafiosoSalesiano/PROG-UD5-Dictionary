@@ -1,11 +1,12 @@
 package duolingo.sortoutword;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Scanner;
 import java.util.Set;
 
 public class SortOut {
     
-    private static HashMap<String, Set<String>> sortWord = new HashMap<>();
+    public static HashMap<String, Set<String>> sortWord = new HashMap<>();
     private static Set<String> wordA = new HashSet<>();
     private static Set<String> wordB = new HashSet<>();
     private static Set<String> wordC = new HashSet<>();
@@ -266,5 +267,34 @@ public class SortOut {
                 System.out.println("no has introducido una palabra válida");
                 break;
         }
+    }
+
+    public static void eraseWord(){
+        final Scanner SCANNER = new Scanner(System.in);
+        System.out.println("¿Qué palabras deseas eliminar?");
+        String eraseWord = SCANNER.nextLine().toLowerCase();
+        char firstCharacter = eraseWord.charAt(0);
+        String firstLetter = Character.toString(firstCharacter);
+        switch (firstLetter) {
+            case "a":
+                if (sortWord.containsKey(firstLetter)) {
+                    for (String string : wordA) {
+                        if (string.equals(eraseWord)) {
+                            wordA.remove(eraseWord);
+                        }
+                    }
+                    System.out.println(sortWord);
+                } else {
+                    System.out.println("No existen letras almacenadas con esa inicial.");
+                }
+                break;
+            
+            default:
+                System.out.println("no has introducido una palabra válida");
+                break;
+        }
+    
+
+
     }
 }

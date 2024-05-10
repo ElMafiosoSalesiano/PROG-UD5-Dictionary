@@ -16,6 +16,7 @@ public class Main {
         System.out.println("introduce palabre");
         String word = SCANNER.nextLine().toLowerCase();
         SortOut.sortWordAdd(word);
+        SortOut.eraseWord();
         } while (condition);
     }
 }
