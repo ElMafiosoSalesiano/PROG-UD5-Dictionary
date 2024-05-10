@@ -47,7 +47,7 @@ public class SortOut {
                     wordA.add(word);
                 }
                 sortWord.put(firstLetter, wordA);
-                System.out.println("Palabra introducida; "+ word +"." );
+                System.out.println("Introduced word; "+ word +"." );
                 break;
             case "b":
                 if (word.isEmpty()) {
@@ -56,7 +56,7 @@ public class SortOut {
                     wordB.add(word);
                 }
                 sortWord.put(firstLetter, wordB);
-                System.out.println("Palabra introducida; "+ word +"." );
+                System.out.println("Introduced word; "+ word +"." );
                 break;
             case "c":
                 if (word.isEmpty()) {
@@ -65,7 +65,7 @@ public class SortOut {
                     wordC.add(word);
                 }
                 sortWord.put(firstLetter, wordC);
-                System.out.println("Palabra introducida; "+ word +"." );
+                System.out.println("Introduced word; "+ word +"." );
                 break;
             case "d":
                 if (word.isEmpty()) {
@@ -74,7 +74,7 @@ public class SortOut {
                     wordD.add(word);
                 }
                 sortWord.put(firstLetter, wordD);
-                System.out.println("Palabra introducida; "+ word +"." );
+                System.out.println("Introduced word; "+ word +"." );
                 break;
             case "e":
                 if (word.isEmpty()) {
@@ -83,7 +83,7 @@ public class SortOut {
                     wordE.add(word);
                 }
                 sortWord.put(firstLetter, wordE);
-                System.out.println("Palabra introducida; "+ word +"." );
+                System.out.println("Introduced word; "+ word +"." );
                 break;
             case "f":
                 if (word.isEmpty()) {
@@ -92,7 +92,7 @@ public class SortOut {
                     wordF.add(word);
                 }
                 sortWord.put(firstLetter, wordF);
-                System.out.println("Palabra introducida; "+ word +"." );
+                System.out.println("Introduced word; "+ word +"." );
                 break;
             case "g":
                 if (word.isEmpty()) {
@@ -101,7 +101,7 @@ public class SortOut {
                     wordG.add(word);
                 }
                 sortWord.put(firstLetter, wordG);
-                System.out.println("Palabra introducida; "+ word +"." );
+                System.out.println("Introduced word; "+ word +"." );
                 break;
             case "h":
                 if (word.isEmpty()) {
@@ -110,7 +110,7 @@ public class SortOut {
                     wordH.add(word);
                 }
                 sortWord.put(firstLetter, wordH);
-                System.out.println("Palabra introducida; "+ word +"." );
+                System.out.println("Introduced word; "+ word +"." );
                 break;
             case "i":
                 if (word.isEmpty()) {
@@ -119,7 +119,7 @@ public class SortOut {
                     wordI.add(word);
                 }
                 sortWord.put(firstLetter, wordI);
-                System.out.println("Palabra introducida; "+ word +"." );
+                System.out.println("Introduced word; "+ word +"." );
                 break;
             case "j":
                 if (word.isEmpty()) {
@@ -128,7 +128,7 @@ public class SortOut {
                     wordJ.add(word);
                 }
                 sortWord.put(firstLetter, wordJ);
-                System.out.println("Palabra introducida; "+ word +"." );
+                System.out.println("Introduced word; "+ word +"." );
                 break;
             case "k":
                 if (word.isEmpty()) {
@@ -137,7 +137,7 @@ public class SortOut {
                     wordK.add(word);
                 }
                 sortWord.put(firstLetter, wordK);
-                System.out.println(sortWord);
+                System.out.println("Introduced word; "+ word +"." );
                 break;
             case "m":
                 if (word.isEmpty()) {
@@ -146,7 +146,7 @@ public class SortOut {
                     wordM.add(word);
                 }
                 sortWord.put(firstLetter, wordM);
-                System.out.println(sortWord);
+                System.out.println("Introduced word; "+ word +"." );
                 break;
             case "n":
                 if (word.isEmpty()) {
@@ -155,7 +155,7 @@ public class SortOut {
                     wordN.add(word);
                 }
                 sortWord.put(firstLetter, wordN);
-                System.out.println(sortWord);
+                System.out.println("Introduced word; "+ word +"." );
                 break;
             case "ñ":
                 if (word.isEmpty()) {
@@ -164,7 +164,7 @@ public class SortOut {
                     wordÑ.add(word);
                 }
                 sortWord.put(firstLetter, wordÑ);
-                System.out.println(sortWord);
+                System.out.println("Introduced word; "+ word +"." );
                 break;
             case "o":
                 if (word.isEmpty()) {
@@ -173,7 +173,7 @@ public class SortOut {
                     wordO.add(word);
                 }
                 sortWord.put(firstLetter, wordO);
-                System.out.println(sortWord);
+                System.out.println("Introduced word; "+ word +"." );
                 break;
             case "p":
                 if (word.isEmpty()) {
@@ -182,7 +182,7 @@ public class SortOut {
                     wordP.add(word);
                 }
                 sortWord.put(firstLetter, wordP);
-                System.out.println(sortWord);
+                System.out.println("Introduced word; "+ word +"." );
                 break;
             case "q":
                 if (word.isEmpty()) {
@@ -191,7 +191,7 @@ public class SortOut {
                     wordQ.add(word);
                 }
                 sortWord.put(firstLetter, wordQ);
-                System.out.println(sortWord);
+                System.out.println("Introduced word; "+ word +"." );
                 break;
             case "r":
                 if (word.isEmpty()) {
@@ -200,7 +200,7 @@ public class SortOut {
                     wordR.add(word);
                 }
                 sortWord.put(firstLetter, wordR);
-                System.out.println(sortWord);
+                System.out.println("Introduced word; "+ word +"." );
                 break;
             case "s":
                 if (word.isEmpty()) {
@@ -209,7 +209,7 @@ public class SortOut {
                     wordS.add(word);
                 }
                 sortWord.put(firstLetter, wordS);
-                System.out.println(sortWord);
+                System.out.println("Introduced word; "+ word +"." );
                 break;
             case "t":
                 if (word.isEmpty()) {
@@ -218,7 +218,7 @@ public class SortOut {
                     wordT.add(word);
                 }
                 sortWord.put(firstLetter, wordT);
-                System.out.println(sortWord);
+                System.out.println("Introduced word; "+ word +"." );
                 break;
             case "u":
                 if (word.isEmpty()) {
@@ -227,7 +227,7 @@ public class SortOut {
                     wordU.add(word);
                 }
                 sortWord.put(firstLetter, wordU);
-                System.out.println(sortWord);
+                System.out.println("Introduced word; "+ word +"." );
                 break;
             case "v":
                 if (word.isEmpty()) {
@@ -236,7 +236,7 @@ public class SortOut {
                     wordV.add(word);
                 }
                 sortWord.put(firstLetter, wordV);
-                System.out.println(sortWord);
+                System.out.println("Introduced word; "+ word +"." );
                 break;
             case "w":
                 if (word.isEmpty()) {
@@ -245,7 +245,7 @@ public class SortOut {
                     wordW.add(word);
                 }
                 sortWord.put(firstLetter, wordW);
-                System.out.println(sortWord);
+                System.out.println("Introduced word; "+ word +"." );
                 break;
             case "x":
             if (word.isEmpty()) {
@@ -253,7 +253,7 @@ public class SortOut {
             } else {
                 wordX.add(word);
             }
-            sortWord.put(firstLetter, wordX);
+            System.out.println("Introduced word; "+ word +"." );
             case "y":
                 if (word.isEmpty()) {
                     System.out.println("You dont introduced nothing");
@@ -261,7 +261,7 @@ public class SortOut {
                     wordY.add(word);
                 }
                 sortWord.put(firstLetter, wordY);
-                System.out.println(sortWord);
+                System.out.println("Introduced word; "+ word +"." );
                 break;
             case "z":
                 if (word.isEmpty()) {
@@ -270,7 +270,7 @@ public class SortOut {
                     wordZ.add(word);
                 }
                 sortWord.put(firstLetter, wordZ);
-                System.out.println(sortWord);
+                System.out.println("Introduced word; "+ word +"." );
                 break;
             default:
                 System.out.println("you introduced a wrong word");
