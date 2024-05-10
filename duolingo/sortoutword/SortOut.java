@@ -31,6 +31,7 @@ public class SortOut {
     private static Set<String> wordU = new HashSet<>();
     private static Set<String> wordV = new HashSet<>();
     private static Set<String> wordW = new HashSet<>();
+    private static Set<String> wordX = new HashSet<>();
     private static Set<String> wordY = new HashSet<>();
     private static Set<String> wordZ = new HashSet<>();
     String word ="";
@@ -246,6 +247,13 @@ public class SortOut {
                 sortWord.put(firstLetter, wordW);
                 System.out.println(sortWord);
                 break;
+            case "x":
+            if (word.isEmpty()) {
+                System.out.println("No introdujo nada");
+            } else {
+                wordX.add(word);
+            }
+            sortWord.put(firstLetter, wordX);
             case "y":
                 if (word.isEmpty()) {
                     System.out.println("No introdujo nada");
@@ -318,6 +326,18 @@ public class SortOut {
                     for (String string : wordD) {
                         if (string.equals(eraseWord)) {
                             wordD.remove(eraseWord);
+                        }
+                    }
+                    System.out.println(sortWord);
+                } else {
+                    System.out.println("No existen letras almacenadas con esa inicial.");
+                }
+                break;
+                case "e":
+                if (sortWord.containsKey(firstLetter)) {
+                    for (String string : wordE) {
+                        if (string.equals(eraseWord)) {
+                            wordE.remove(eraseWord);
                         }
                     }
                     System.out.println(sortWord);
@@ -541,6 +561,17 @@ public class SortOut {
                     System.out.println("No existen letras almacenadas con esa inicial.");
                 }
                 break;
+                case "x":
+                if (sortWord.containsKey(firstLetter)) {
+                    for (String string : wordX) {
+                        if (string.equals(eraseWord)) {
+                            wordX.remove(eraseWord);
+                        }
+                    }
+                    System.out.println(sortWord);
+                } else {
+                    System.out.println("No existen letras almacenadas con esa inicial.");
+                }
                 case "y":
                 if (sortWord.containsKey(firstLetter)) {
                     for (String string : wordY) {
@@ -831,6 +862,16 @@ public class SortOut {
                     }
                 }
                 break;
+            case "x":
+            if (word.isEmpty()) {
+                System.out.println("No introdujo nada");
+            } else {
+                for (String string : wordX) {
+                    if (word.equals(string)) {
+                        System.out.println("palabra encontrada con éxito: " + word);
+                    }
+                }
+            }
             case "y":
                 if (word.isEmpty()) {
                     System.out.println("No introdujo nada");
@@ -856,6 +897,288 @@ public class SortOut {
             default:
                 System.out.println("no has introducido una palabra válida");
                 break;
+        }
+    }
+
+    public static void showInitials(){
+        final Scanner SCANNER = new Scanner(System.in);
+        System.out.println("Todas las iniciales que guardan palabras;");
+        if (wordA.isEmpty() && wordB.isEmpty() && wordC.isEmpty() && wordD.isEmpty() && wordE.isEmpty() && wordF.isEmpty() && wordG.isEmpty() && wordH.isEmpty() && wordI.isEmpty()
+        && wordJ.isEmpty() && wordK.isEmpty() && wordM.isEmpty() && wordN.isEmpty() && wordO.isEmpty() && wordP.isEmpty() && wordQ.isEmpty() && wordR.isEmpty() &&
+        wordS.isEmpty() && wordT.isEmpty() && wordU.isEmpty() && wordV.isEmpty() && wordW.isEmpty() && wordX.isEmpty() && wordY.isEmpty() && wordZ.isEmpty()) {
+            sortWord.remove("a");
+            sortWord.remove("b");
+            sortWord.remove("c");
+            sortWord.remove("d");
+            sortWord.remove("e");
+            sortWord.remove("f");
+            sortWord.remove("g");
+            sortWord.remove("h");
+            sortWord.remove("i");
+            sortWord.remove("j");
+            sortWord.remove("k");
+            sortWord.remove("m");
+            sortWord.remove("n");
+            sortWord.remove("ñ");
+            sortWord.remove("o");
+            sortWord.remove("p");
+            sortWord.remove("q");
+            sortWord.remove("r");
+            sortWord.remove("s");
+            sortWord.remove("t");
+            sortWord.remove("u");
+            sortWord.remove("v");
+            sortWord.remove("w");
+            sortWord.remove("x");
+            sortWord.remove("y");
+            sortWord.remove("z");
+            System.out.println("ninguna letra contiene palabras almacenadas");
+            
+        } else {
+           
+            if (sortWord.get("a") == null) {
+                sortWord.remove("a");
+            } else {
+                if (sortWord.containsKey("a") && wordA.isEmpty()) {
+                    
+                } else {
+                    System.out.println("La inicial " + " 'a' " + " tiene palabras guardadas.");
+                }
+            }
+                
+            if (sortWord.get("b") == null) {
+                sortWord.remove("b");
+            } else {
+                if (sortWord.containsKey("b") && wordB.isEmpty()) {
+                    
+                } else {
+                    System.out.println("La inicial " + " 'b' " + " tiene palabras guardadas.");
+                }
+            }
+                
+            if (sortWord.get("c") == null) {
+                sortWord.remove("c");
+            } else {
+                if (sortWord.containsKey("c") && wordC.isEmpty()) {
+                    
+                } else {
+                    System.out.println("La inicial " + " 'c' " + " tiene palabras guardadas.");
+                }
+            }
+            if (sortWord.get("d") == null) {
+                sortWord.remove("d");
+            } else {
+                if (sortWord.containsKey("d") && wordD.isEmpty()) {
+                    
+                } else {
+                    System.out.println("La inicial " + " 'c' " + " tiene palabras guardadas.");
+                }
+            }
+            if (sortWord.get("e") == null) {
+                sortWord.remove("e");
+            } else {
+                if (sortWord.containsKey("e") && wordE.isEmpty()) {
+                    
+                } else {
+                    System.out.println("La inicial " + " 'e' " + " tiene palabras guardadas.");
+                }
+            }
+            if (sortWord.get("f") == null) {
+                sortWord.remove("f");
+            } else {
+                if (sortWord.containsKey("f") && wordF.isEmpty()) {
+                } else {
+                    System.out.println("La inicial " + " 'f' " + " tiene palabras guardadas.");
+                }
+            }
+            if (sortWord.get("g") == null) {
+                sortWord.remove("g");
+            } else {
+                if (sortWord.containsKey("g") && wordG.isEmpty()) {
+                } else {
+                    System.out.println("La inicial " + " 'g' " + " tiene palabras guardadas.");
+                }
+            }
+            if (sortWord.get("h") == null) {
+                sortWord.remove("h");
+            } else {
+                if (sortWord.containsKey("h") && wordH.isEmpty()) {
+                    System.out.println("");
+                } else {
+                    System.out.println("La inicial " + " 'h' " + " tiene palabras guardadas.");
+                }
+            }
+            if (sortWord.get("i") == null) {
+                sortWord.remove("i");
+            } else {
+                if (sortWord.containsKey("i") && wordI.isEmpty()) {
+                } else {
+                    System.out.println("La inicial " + " 'i' " + " tiene palabras guardadas.");
+                }
+            }
+            if (sortWord.get("i") == null) {
+                sortWord.remove("i");
+            } else {
+                if (sortWord.containsKey("i") && wordI.isEmpty()) {
+                    System.out.println("");
+                } else {
+                    System.out.println("La inicial " + " 'i' " + " tiene palabras guardadas.");
+                }
+            }
+            if (sortWord.get("j") == null) {
+                sortWord.remove("j");
+            } else {
+                if (sortWord.containsKey("j") && wordJ.isEmpty()) {
+                    System.out.println("");
+                } else {
+                    System.out.println("La inicial " + " 'j' " + " tiene palabras guardadas.");
+                }
+            }
+            if (sortWord.get("k") == null) {
+                sortWord.remove("k");
+            } else {
+                if (sortWord.containsKey("k") && wordK.isEmpty()) {
+                    System.out.println("");
+                } else {
+                    System.out.println("La inicial " + " 'k' " + " tiene palabras guardadas.");
+                }
+            }
+            if (sortWord.get("m") == null) {
+                sortWord.remove("m");
+            } else {
+                if (sortWord.containsKey("m") && wordM.isEmpty()) {
+                    System.out.println("");
+                } else {
+                    System.out.println("La inicial " + " 'm' " + " tiene palabras guardadas.");
+                }
+            }
+            if (sortWord.get("n") == null) {
+                sortWord.remove("n");
+            } else {
+                if (sortWord.containsKey("n") && wordN.isEmpty()) {
+                    System.out.println("");
+                } else {
+                    System.out.println("La inicial " + " 'n' " + " tiene palabras guardadas.");
+                }
+            }
+            if (sortWord.get("ñ") == null) {
+                sortWord.remove("ñ");
+            } else {
+                if (sortWord.containsKey("ñ") && wordÑ.isEmpty()) {
+                    System.out.println("");
+                } else {
+                    System.out.println("La inicial " + " 'ñ' " + " tiene palabras guardadas.");
+                }
+            }
+            if (sortWord.get("o") == null) {
+                sortWord.remove("o");
+            } else {
+                if (sortWord.containsKey("o") && wordO.isEmpty()) {
+                    System.out.println("");
+                } else {
+                    System.out.println("La inicial " + " 'o' " + " tiene palabras guardadas.");
+                }
+            }
+            if (sortWord.get("p") == null) {
+                sortWord.remove("p");
+            } else {
+                if (sortWord.containsKey("p") && wordP.isEmpty()) {
+                    System.out.println("");
+                } else {
+                    System.out.println("La inicial " + " 'p' " + " tiene palabras guardadas.");
+                }
+            }
+            if (sortWord.get("q") == null) {
+                sortWord.remove("q");
+            } else {
+                if (sortWord.containsKey("q") && wordQ.isEmpty()) {
+                    System.out.println("");
+                } else {
+                    System.out.println("La inicial " + " 'q' " + " tiene palabras guardadas.");
+                }
+            }
+            if (sortWord.get("r") == null) {
+                sortWord.remove("r");
+            } else {
+                if (sortWord.containsKey("r") && wordR.isEmpty()) {
+                    System.out.println("");
+                } else {
+                    System.out.println("La inicial " + " 'r' " + " tiene palabras guardadas.");
+                }
+            }
+            if (sortWord.get("s") == null) {
+                sortWord.remove("s");
+            } else {
+                if (sortWord.containsKey("s") && wordS.isEmpty()) {
+                    System.out.println("");
+                } else {
+                    System.out.println("La inicial " + " 's' " + " tiene palabras guardadas.");
+                }
+            }
+            if (sortWord.get("t") == null) {
+                sortWord.remove("t");
+            } else {
+                if (sortWord.containsKey("t") && wordT.isEmpty()) {
+                    System.out.println("");
+                } else {
+                    System.out.println("La inicial " + " 't' " + " tiene palabras guardadas.");
+                }
+            }
+            if (sortWord.get("u") == null) {
+                sortWord.remove("u");
+            } else {
+                if (sortWord.containsKey("u") && wordU.isEmpty()) {
+                    System.out.println("");
+                } else {
+                    System.out.println("La inicial " + " 'u' " + " tiene palabras guardadas.");
+                }
+            }
+            if (sortWord.get("v") == null) {
+                sortWord.remove("v");
+            } else {
+                if (sortWord.containsKey("v") && wordV.isEmpty()) {
+                    System.out.println("");
+                } else {
+                    System.out.println("La inicial " + " 'v' " + " tiene palabras guardadas.");
+                }
+            }
+            if (sortWord.get("w") == null) {
+                sortWord.remove("w");
+            } else {
+                if (sortWord.containsKey("w") && wordW.isEmpty()) {
+                    System.out.println("");
+                } else {
+                    System.out.println("La inicial " + " 'w' " + " tiene palabras guardadas.");
+                }
+            }
+            if (sortWord.get("x") == null) {
+                sortWord.remove("x");
+            } else {
+                if (sortWord.containsKey("x") && wordX.isEmpty()) {
+                    System.out.println("");
+                } else {
+                    System.out.println("La inicial " + " 'x' " + " tiene palabras guardadas.");
+                }
+            }
+            if (sortWord.get("y") == null) {
+                sortWord.remove("y");
+            } else {
+                if (sortWord.containsKey("y") && wordY.isEmpty()) {
+                    System.out.println("");
+                } else {
+                    System.out.println("La inicial " + " 'y' " + " tiene palabras guardadas.");
+                }
+            }
+            if (sortWord.get("z") == null) {
+                sortWord.remove("z");
+            } else {
+                if (sortWord.containsKey("z") && wordZ.isEmpty()) {
+                    System.out.println("");
+                } else {
+                    System.out.println("La inicial " + " 'z' " + " tiene palabras guardadas.");
+                }
+            }
+
         }
     }
 }

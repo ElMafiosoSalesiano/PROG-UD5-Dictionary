@@ -18,6 +18,7 @@ public class Main {
         SortOut.sortWordAdd(word);
         SortOut.eraseWord();
         SortOut.findWord();
+        SortOut.showInitials();
         } while (condition);
     }
 }
