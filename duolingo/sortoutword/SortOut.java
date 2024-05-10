@@ -1,11 +1,13 @@
 package duolingo.sortoutword;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Map;
+import java.util.Scanner;
 import java.util.Set;
 
 public class SortOut {
     
-    private static HashMap<String, Set<String>> sortWord = new HashMap<>();
+    public static Map<String, Set<String>> sortWord = new HashMap<>();
     private static Set<String> wordA = new HashSet<>();
     private static Set<String> wordB = new HashSet<>();
     private static Set<String> wordC = new HashSet<>();
@@ -261,6 +263,307 @@ public class SortOut {
                 }
                 sortWord.put(firstLetter, wordZ);
                 System.out.println(sortWord);
+                break;
+            default:
+                System.out.println("no has introducido una palabra válida");
+                break;
+        }
+    }
+
+    public static void eraseWord(){
+        final Scanner SCANNER = new Scanner(System.in);
+        System.out.println("¿Qué palabras deseas eliminar?");
+        String eraseWord = SCANNER.nextLine().toLowerCase().trim();
+        char firstCharacter = eraseWord.charAt(0);
+        String firstLetter = Character.toString(firstCharacter);
+        switch (firstLetter) {
+            case "a":
+                if (sortWord.containsKey(firstLetter)) {
+                    for (String string : wordA) {
+                        if (string.equals(eraseWord)) {
+                            wordA.remove(eraseWord);
+                        }
+                    }
+                    System.out.println(sortWord);
+                } else {
+                    System.out.println("No existen letras almacenadas con esa inicial.");
+                }
+                break;
+                case "b":
+                if (sortWord.containsKey(firstLetter)) {
+                    for (String string : wordB) {
+                        if (string.equals(eraseWord)) {
+                            wordB.remove(eraseWord);
+                        }
+                    }
+                    System.out.println(sortWord);
+                } else {
+                    System.out.println("No existen letras almacenadas con esa inicial.");
+                }
+                break;
+                case "c":
+                if (sortWord.containsKey(firstLetter)) {
+                    for (String string : wordC) {
+                        if (string.equals(eraseWord)) {
+                            wordC.remove(eraseWord);
+                        }
+                    }
+                    System.out.println(sortWord);
+                } else {
+                    System.out.println("No existen letras almacenadas con esa inicial.");
+                }
+                break;
+                case "d":
+                if (sortWord.containsKey(firstLetter)) {
+                    for (String string : wordD) {
+                        if (string.equals(eraseWord)) {
+                            wordD.remove(eraseWord);
+                        }
+                    }
+                    System.out.println(sortWord);
+                } else {
+                    System.out.println("No existen letras almacenadas con esa inicial.");
+                }
+                break;
+                case "f":
+                if (sortWord.containsKey(firstLetter)) {
+                    for (String string : wordF) {
+                        if (string.equals(eraseWord)) {
+                            wordF.remove(eraseWord);
+                        }
+                    }
+                    System.out.println(sortWord);
+                } else {
+                    System.out.println("No existen letras almacenadas con esa inicial.");
+                }
+                break;
+                case "g":
+                if (sortWord.containsKey(firstLetter)) {
+                    for (String string : wordG) {
+                        if (string.equals(eraseWord)) {
+                            wordG.remove(eraseWord);
+                        }
+                    }
+                    System.out.println(sortWord);
+                } else {
+                    System.out.println("No existen letras almacenadas con esa inicial.");
+                }
+                break;
+                case "h":
+                if (sortWord.containsKey(firstLetter)) {
+                    for (String string : wordH) {
+                        if (string.equals(eraseWord)) {
+                            wordH.remove(eraseWord);
+                        }
+                    }
+                    System.out.println(sortWord);
+                } else {
+                    System.out.println("No existen letras almacenadas con esa inicial.");
+                }
+                break;
+                case "i":
+                if (sortWord.containsKey(firstLetter)) {
+                    for (String string : wordI) {
+                        if (string.equals(eraseWord)) {
+                            wordI.remove(eraseWord);
+                        }
+                    }
+                    System.out.println(sortWord);
+                } else {
+                    System.out.println("No existen letras almacenadas con esa inicial.");
+                }
+                break;
+                case "j":
+                if (sortWord.containsKey(firstLetter)) {
+                    for (String string : wordJ) {
+                        if (string.equals(eraseWord)) {
+                            wordJ.remove(eraseWord);
+                        }
+                    }
+                    System.out.println(sortWord);
+                } else {
+                    System.out.println("No existen letras almacenadas con esa inicial.");
+                }
+                break;
+                case "k":
+                if (sortWord.containsKey(firstLetter)) {
+                    for (String string : wordK) {
+                        if (string.equals(eraseWord)) {
+                            wordK.remove(eraseWord);
+                        }
+                    }
+                    System.out.println(sortWord);
+                } else {
+                    System.out.println("No existen letras almacenadas con esa inicial.");
+                }
+                break;
+                case "m":
+                if (sortWord.containsKey(firstLetter)) {
+                    for (String string : wordM) {
+                        if (string.equals(eraseWord)) {
+                            wordM.remove(eraseWord);
+                        }
+                    }
+                    System.out.println(sortWord);
+                } else {
+                    System.out.println("No existen letras almacenadas con esa inicial.");
+                }
+                break;
+                case "n":
+                if (sortWord.containsKey(firstLetter)) {
+                    for (String string : wordN) {
+                        if (string.equals(eraseWord)) {
+                            wordN.remove(eraseWord);
+                        }
+                    }
+                    System.out.println(sortWord);
+                } else {
+                    System.out.println("No existen letras almacenadas con esa inicial.");
+                }
+                break;
+                case "ñ":
+                if (sortWord.containsKey(firstLetter)) {
+                    for (String string : wordÑ) {
+                        if (string.equals(eraseWord)) {
+                            wordÑ.remove(eraseWord);
+                        }
+                    }
+                    System.out.println(sortWord);
+                } else {
+                    System.out.println("No existen letras almacenadas con esa inicial.");
+                }
+                break;
+                case "o":
+                if (sortWord.containsKey(firstLetter)) {
+                    for (String string : wordO) {
+                        if (string.equals(eraseWord)) {
+                            wordO.remove(eraseWord);
+                        }
+                    }
+                    System.out.println(sortWord);
+                } else {
+                    System.out.println("No existen letras almacenadas con esa inicial.");
+                }
+                break;
+                case "p":
+                if (sortWord.containsKey(firstLetter)) {
+                    for (String string : wordP) {
+                        if (string.equals(eraseWord)) {
+                            wordP.remove(eraseWord);
+                        }
+                    }
+                    System.out.println(sortWord);
+                } else {
+                    System.out.println("No existen letras almacenadas con esa inicial.");
+                }
+                break;
+                case "q":
+                if (sortWord.containsKey(firstLetter)) {
+                    for (String string : wordQ) {
+                        if (string.equals(eraseWord)) {
+                            wordQ.remove(eraseWord);
+                        }
+                    }
+                    System.out.println(sortWord);
+                } else {
+                    System.out.println("No existen letras almacenadas con esa inicial.");
+                }
+                break;
+                case "r":
+                if (sortWord.containsKey(firstLetter)) {
+                    for (String string : wordR) {
+                        if (string.equals(eraseWord)) {
+                            wordR.remove(eraseWord);
+                        }
+                    }
+                    System.out.println(sortWord);
+                } else {
+                    System.out.println("No existen letras almacenadas con esa inicial.");
+                }
+                break;
+                case "s":
+                if (sortWord.containsKey(firstLetter)) {
+                    for (String string : wordS) {
+                        if (string.equals(eraseWord)) {
+                            wordS.remove(eraseWord);
+                        }
+                    }
+                    System.out.println(sortWord);
+                } else {
+                    System.out.println("No existen letras almacenadas con esa inicial.");
+                }
+                break;
+                case "t":
+                if (sortWord.containsKey(firstLetter)) {
+                    for (String string : wordT) {
+                        if (string.equals(eraseWord)) {
+                            wordT.remove(eraseWord);
+                        }
+                    }
+                    System.out.println(sortWord);
+                } else {
+                    System.out.println("No existen letras almacenadas con esa inicial.");
+                }
+                break;
+                case "u":
+                if (sortWord.containsKey(firstLetter)) {
+                    for (String string : wordU) {
+                        if (string.equals(eraseWord)) {
+                            wordU.remove(eraseWord);
+                        }
+                    }
+                    System.out.println(sortWord);
+                } else {
+                    System.out.println("No existen letras almacenadas con esa inicial.");
+                }
+                break;
+                case "v":
+                if (sortWord.containsKey(firstLetter)) {
+                    for (String string : wordV) {
+                        if (string.equals(eraseWord)) {
+                            wordV.remove(eraseWord);
+                        }
+                    }
+                    System.out.println(sortWord);
+                } else {
+                    System.out.println("No existen letras almacenadas con esa inicial.");
+                }
+                break;
+                case "w":
+                if (sortWord.containsKey(firstLetter)) {
+                    for (String string : wordW) {
+                        if (string.equals(eraseWord)) {
+                            wordW.remove(eraseWord);
+                        }
+                    }
+                    System.out.println(sortWord);
+                } else {
+                    System.out.println("No existen letras almacenadas con esa inicial.");
+                }
+                break;
+                case "y":
+                if (sortWord.containsKey(firstLetter)) {
+                    for (String string : wordY) {
+                        if (string.equals(eraseWord)) {
+                            wordY.remove(eraseWord);
+                        }
+                    }
+                    System.out.println(sortWord);
+                } else {
+                    System.out.println("No existen letras almacenadas con esa inicial.");
+                }
+                break;
+                case "z":
+                if (sortWord.containsKey(firstLetter)) {
+                    for (String string : wordZ) {
+                        if (string.equals(eraseWord)) {
+                            wordZ.remove(eraseWord);
+                        }
+                    }
+                    System.out.println(sortWord);
+                } else {
+                    System.out.println("No existen letras almacenadas con esa inicial.");
+                }
                 break;
             default:
                 System.out.println("no has introducido una palabra válida");
