@@ -570,4 +570,292 @@ public class SortOut {
                 break;
         }
     }
+    
+    public static void findWord(){
+        final Scanner SCANNER = new Scanner(System.in);
+        System.out.println("palabra que quieras buscar");
+        String word = SCANNER.nextLine().toLowerCase().trim();
+        char firstCharacter = word.charAt(0);
+        String firstLetter = Character.toString(firstCharacter);
+        switch (firstLetter) {
+            case "a":
+                if (word.isEmpty()) {
+                    System.out.println("No introdujo nada");
+                } else {
+                    for (String string : wordA) {
+                        if (word.equals(string)) {
+                            System.out.println("palabra encontrada con éxito: " + word);
+                        }
+                    }
+                }
+                break;
+            case "b":
+                if (word.isEmpty()) {
+                    System.out.println("No introdujo nada");
+                } else {
+                    for (String string : wordB) {
+                        if (word.equals(string)) {
+                            System.out.println("palabra encontrada con éxito: " + word);
+                        }
+                    }
+                }
+                break;
+            case "c":
+                if (word.isEmpty()) {
+                    System.out.println("No introdujo nada");
+                } else {
+                    for (String string : wordC) {
+                        if (word.equals(string)) {
+                            System.out.println("palabra encontrada con éxito: " + word);
+                        }
+                    }
+                }
+                break;
+            case "d":
+                if (word.isEmpty()) {
+                    System.out.println("No introdujo nada");
+                } else {
+                    for (String string : wordD) {
+                        if (word.equals(string)) {
+                            System.out.println("palabra encontrada con éxito: " + word);
+                        }
+                    }
+                }
+                break;
+            case "e":
+                if (word.isEmpty()) {
+                    System.out.println("No introdujo nada");
+                } else {
+                    for (String string : wordE) {
+                        if (word.equals(string)) {
+                            System.out.println("palabra encontrada con éxito: " + word);
+                        }
+                    }
+                }
+                break;
+            case "f":
+                if (word.isEmpty()) {
+                    System.out.println("No introdujo nada");
+                } else {
+                    for (String string : wordF) {
+                        if (word.equals(string)) {
+                            System.out.println("palabra encontrada con éxito: " + word);
+                        }
+                    }
+                }
+                break;
+            case "g":
+                if (word.isEmpty()) {
+                    System.out.println("No introdujo nada");
+                } else {
+                    for (String string : wordG) {
+                        if (word.equals(string)) {
+                            System.out.println("palabra encontrada con éxito: " + word);
+                        }
+                    }
+                }
+                break;
+            case "h":
+                if (word.isEmpty()) {
+                    System.out.println("No introdujo nada");
+                } else {
+                    for (String string : wordH) {
+                        if (word.equals(string)) {
+                            System.out.println("palabra encontrada con éxito: " + word);
+                        }
+                    }
+                }
+                break;
+            case "i":
+                if (word.isEmpty()) {
+                    System.out.println("No introdujo nada");
+                } else {
+                    for (String string : wordI) {
+                        if (word.equals(string)) {
+                            System.out.println("palabra encontrada con éxito: " + word);
+                        }
+                    }
+                }
+                break;
+            case "j":
+                if (word.isEmpty()) {
+                    System.out.println("No introdujo nada");
+                } else {
+                    for (String string : wordJ) {
+                        if (word.equals(string)) {
+                            System.out.println("palabra encontrada con éxito: " + word);
+                        }
+                    }
+                }
+                break;
+            case "k":
+                if (word.isEmpty()) {
+                    System.out.println("No introdujo nada");
+                } else {
+                    for (String string : wordK) {
+                        if (word.equals(string)) {
+                            System.out.println("palabra encontrada con éxito: " + word);
+                        }
+                    }
+                }
+                break;
+            case "m":
+                if (word.isEmpty()) {
+                    System.out.println("No introdujo nada");
+                } else {
+                    for (String string : wordM) {
+                        if (word.equals(string)) {
+                            System.out.println("palabra encontrada con éxito: " + word);
+                        }
+                    }
+                }
+                break;
+            case "n":
+                if (word.isEmpty()) {
+                    System.out.println("No introdujo nada");
+                } else {
+                    for (String string : wordN) {
+                        if (word.equals(string)) {
+                            System.out.println("palabra encontrada con éxito: " + word);
+                        }
+                    }
+                }
+                break;
+            case "ñ":
+                if (word.isEmpty()) {
+                    System.out.println("No introdujo nada");
+                } else {
+                    for (String string : wordÑ) {
+                        if (word.equals(string)) {
+                            System.out.println("palabra encontrada con éxito: " + word);
+                        }
+                    }
+                }
+                break;
+            case "o":
+                if (word.isEmpty()) {
+                    System.out.println("No introdujo nada");
+                } else {
+                    for (String string : wordO) {
+                        if (word.equals(string)) {
+                            System.out.println("palabra encontrada con éxito: " + word);
+                        }
+                    }
+                }
+                break;
+            case "p":
+                if (word.isEmpty()) {
+                    System.out.println("No introdujo nada");
+                } else {
+                    for (String string : wordP) {
+                        if (word.equals(string)) {
+                            System.out.println("palabra encontrada con éxito: " + word);
+                        }
+                    }
+                }
+                break;
+            case "q":
+                if (word.isEmpty()) {
+                    System.out.println("No introdujo nada");
+                } else {
+                    for (String string : wordQ) {
+                        if (word.equals(string)) {
+                            System.out.println("palabra encontrada con éxito: " + word);
+                        }
+                    }
+                }
+                break;
+            case "r":
+                if (word.isEmpty()) {
+                    System.out.println("No introdujo nada");
+                } else {
+                    for (String string : wordR) {
+                        if (word.equals(string)) {
+                            System.out.println("palabra encontrada con éxito: " + word);
+                        }
+                    }
+                }
+                break;
+            case "s":
+                if (word.isEmpty()) {
+                    System.out.println("No introdujo nada");
+                } else {
+                    for (String string : wordS) {
+                        if (word.equals(string)) {
+                            System.out.println("palabra encontrada con éxito: " + word);
+                        }
+                    }
+                }
+                break;
+            case "t":
+                if (word.isEmpty()) {
+                    System.out.println("No introdujo nada");
+                } else {
+                    for (String string : wordT) {
+                        if (word.equals(string)) {
+                            System.out.println("palabra encontrada con éxito: " + word);
+                        }
+                    }
+                }
+                break;
+            case "u":
+                if (word.isEmpty()) {
+                    System.out.println("No introdujo nada");
+                } else {
+                    for (String string : wordU) {
+                        if (word.equals(string)) {
+                            System.out.println("palabra encontrada con éxito: " + word);
+                        }
+                    }
+                }
+                break;
+            case "v":
+                if (word.isEmpty()) {
+                    System.out.println("No introdujo nada");
+                } else {
+                    for (String string : wordV) {
+                        if (word.equals(string)) {
+                            System.out.println("palabra encontrada con éxito: " + word);
+                        }
+                    }
+                }
+                break;
+            case "w":
+                if (word.isEmpty()) {
+                    System.out.println("No introdujo nada");
+                } else {
+                    for (String string : wordW) {
+                        if (word.equals(string)) {
+                            System.out.println("palabra encontrada con éxito: " + word);
+                        }
+                    }
+                }
+                break;
+            case "y":
+                if (word.isEmpty()) {
+                    System.out.println("No introdujo nada");
+                } else {
+                    for (String string : wordY) {
+                        if (word.equals(string)) {
+                            System.out.println("palabra encontrada con éxito: " + word);
+                        }
+                    }
+                }
+                break;
+            case "z":
+                if (word.isEmpty()) {
+                    System.out.println("No introdujo nada");
+                } else {
+                    for (String string : wordZ) {
+                        if (word.equals(string)) {
+                            System.out.println("palabra encontrada con éxito: " + word);
+                        }
+                    }
+                }
+                break;
+            default:
+                System.out.println("no has introducido una palabra válida");
+                break;
+        }
+    }
 }

@@ -14,9 +14,10 @@ public class Main {
         boolean condition = true;
         do {
         System.out.println("introduce palabre");
-        String word = SCANNER.nextLine().toLowerCase();
+        String word = SCANNER.nextLine().toLowerCase().trim();
         SortOut.sortWordAdd(word);
         SortOut.eraseWord();
+        SortOut.findWord();
         } while (condition);
     }
 }
