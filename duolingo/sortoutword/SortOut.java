@@ -931,7 +931,7 @@ public class SortOut {
             sortWord.remove("x");
             sortWord.remove("y");
             sortWord.remove("z");
-            System.out.println("ninguna letra contiene palabras almacenadas");
+            System.out.println("any initial letter have storaged any word");
             
         } else {
             System.out.println("All inital letters that keep saving words;");
