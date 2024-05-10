@@ -617,6 +617,9 @@ public class SortOut {
                         if (word.equals(string)) {
                             System.out.println("Word was found it successfully: " + word);
                         }
+                        else{
+                            System.out.println("the word doesnt exist");
+                        }
                     }
                 }
                 break;
@@ -627,6 +630,9 @@ public class SortOut {
                     for (String string : wordB) {
                         if (word.equals(string)) {
                             System.out.println("Word was found it successfully: " + word);
+                        }
+                        else{
+                            System.out.println("the word doesnt exist");
                         }
                     }
                 }
@@ -639,6 +645,9 @@ public class SortOut {
                         if (word.equals(string)) {
                             System.out.println("Word was found it successfully: " + word);
                         }
+                        else{
+                            System.out.println("the word doesnt exist");
+                        }
                     }
                 }
                 break;
@@ -649,6 +658,9 @@ public class SortOut {
                     for (String string : wordD) {
                         if (word.equals(string)) {
                             System.out.println("Word was found it successfully: " + word);
+                        }
+                        else{
+                            System.out.println("the word doesnt exist");
                         }
                     }
                 }
@@ -661,6 +673,9 @@ public class SortOut {
                         if (word.equals(string)) {
                             System.out.println("Word was found it successfully: " + word);
                         }
+                        else{
+                            System.out.println("the word doesnt exist");
+                        }
                     }
                 }
                 break;
@@ -671,6 +686,9 @@ public class SortOut {
                     for (String string : wordF) {
                         if (word.equals(string)) {
                             System.out.println("Word was found it successfully: " + word);
+                        }
+                        else{
+                            System.out.println("the word doesnt exist");
                         }
                     }
                 }
@@ -683,6 +701,9 @@ public class SortOut {
                         if (word.equals(string)) {
                             System.out.println("Word was found it successfully: " + word);
                         }
+                        else{
+                            System.out.println("the word doesnt exist");
+                        }
                     }
                 }
                 break;
@@ -693,6 +714,9 @@ public class SortOut {
                     for (String string : wordH) {
                         if (word.equals(string)) {
                             System.out.println("Word was found it successfully: " + word);
+                        }
+                        else{
+                            System.out.println("the word doesnt exist");
                         }
                     }
                 }
@@ -705,6 +729,9 @@ public class SortOut {
                         if (word.equals(string)) {
                             System.out.println("Word was found it successfully: " + word);
                         }
+                        else{
+                            System.out.println("the word doesnt exist");
+                        }
                     }
                 }
                 break;
@@ -715,6 +742,9 @@ public class SortOut {
                     for (String string : wordJ) {
                         if (word.equals(string)) {
                             System.out.println("Word was found it successfully: " + word);
+                        }
+                        else{
+                            System.out.println("the word doesnt exist");
                         }
                     }
                 }
@@ -727,6 +757,9 @@ public class SortOut {
                         if (word.equals(string)) {
                             System.out.println("Word was found it successfully: " + word);
                         }
+                        else{
+                            System.out.println("the word doesnt exist");
+                        }
                     }
                 }
                 break;
@@ -737,6 +770,9 @@ public class SortOut {
                     for (String string : wordM) {
                         if (word.equals(string)) {
                             System.out.println("Word was found it successfully: " + word);
+                        }
+                        else{
+                            System.out.println("the word doesnt exist");
                         }
                     }
                 }
@@ -749,6 +785,9 @@ public class SortOut {
                         if (word.equals(string)) {
                             System.out.println("Word was found it successfully: " + word);
                         }
+                        else{
+                            System.out.println("the word doesnt exist");
+                        }
                     }
                 }
                 break;
@@ -759,6 +798,9 @@ public class SortOut {
                     for (String string : wordÑ) {
                         if (word.equals(string)) {
                             System.out.println("Word was found it successfully: " + word);
+                        }
+                        else{
+                            System.out.println("the word doesnt exist");
                         }
                     }
                 }
@@ -771,6 +813,9 @@ public class SortOut {
                         if (word.equals(string)) {
                             System.out.println("Word was found it successfully: " + word);
                         }
+                        else{
+                            System.out.println("the word doesnt exist");
+                        }
                     }
                 }
                 break;
@@ -781,6 +826,9 @@ public class SortOut {
                     for (String string : wordP) {
                         if (word.equals(string)) {
                             System.out.println("Word was found it successfully: " + word);
+                        }
+                        else{
+                            System.out.println("the word doesnt exist");
                         }
                     }
                 }
@@ -793,6 +841,9 @@ public class SortOut {
                         if (word.equals(string)) {
                             System.out.println("Word was found it successfully: " + word);
                         }
+                        else{
+                            System.out.println("the word doesnt exist");
+                        }
                     }
                 }
                 break;
@@ -803,6 +854,9 @@ public class SortOut {
                     for (String string : wordR) {
                         if (word.equals(string)) {
                             System.out.println("Word was found it successfully: " + word);
+                        }
+                        else{
+                            System.out.println("the word doesnt exist");
                         }
                     }
                 }
@@ -815,6 +869,9 @@ public class SortOut {
                         if (word.equals(string)) {
                             System.out.println("Word was found it successfully: " + word);
                         }
+                        else{
+                            System.out.println("the word doesnt exist");
+                        }
                     }
                 }
                 break;
@@ -825,6 +882,9 @@ public class SortOut {
                     for (String string : wordT) {
                         if (word.equals(string)) {
                             System.out.println("Word was found it successfully: " + word);
+                        }
+                        else{
+                            System.out.println("the word doesnt exist");
                         }
                     }
                 }
@@ -837,6 +897,9 @@ public class SortOut {
                         if (word.equals(string)) {
                             System.out.println("Word was found it successfully: " + word);
                         }
+                        else{
+                            System.out.println("the word doesnt exist");
+                        }
                     }
                 }
                 break;
@@ -847,6 +910,9 @@ public class SortOut {
                     for (String string : wordV) {
                         if (word.equals(string)) {
                             System.out.println("Word was found it successfully: " + word);
+                        }
+                        else{
+                            System.out.println("the word doesnt exist");
                         }
                     }
                 }
@@ -859,6 +925,9 @@ public class SortOut {
                         if (word.equals(string)) {
                             System.out.println("Word was found it successfully: " + word);
                         }
+                        else{
+                            System.out.println("the word doesnt exist");
+                        }
                     }
                 }
                 break;
@@ -870,6 +939,9 @@ public class SortOut {
                     if (word.equals(string)) {
                         System.out.println("Word was found it successfully: " + word);
                     }
+                    else{
+                        System.out.println("the word doesnt exist");
+                    }
                 }
             }
             case "y":
@@ -879,6 +951,9 @@ public class SortOut {
                     for (String string : wordY) {
                         if (word.equals(string)) {
                             System.out.println("Word was found it successfully: " + word);
+                        }
+                        else{
+                            System.out.println("the word doesnt exist");
                         }
                     }
                 }
@@ -890,6 +965,9 @@ public class SortOut {
                     for (String string : wordZ) {
                         if (word.equals(string)) {
                             System.out.println("Word was found it successfully: " + word);
+                        }
+                        else{
+                            System.out.println("the word doesnt exist");
                         }
                     }
                 }
