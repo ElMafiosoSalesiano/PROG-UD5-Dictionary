@@ -1181,4 +1181,231 @@ public class SortOut {
 
         }
     }
+    public static void wordsByInitials(){
+        final Scanner SCANNER = new Scanner(System.in);
+        System.out.println("dame la inicial de la que me quieras mostrar cada palabra que contiene");
+        String letter = SCANNER.nextLine().toLowerCase();
+        if (letter.length() == 1) {
+            if (letter.isEmpty()) {
+                System.out.println("No has escrito ninguna inicial");
+            } else {
+                switch (letter) {
+                    case "a":
+
+                        if (wordA.isEmpty()) {
+                            System.out.println("no existe nada almacenado con la letra a");
+                        } else {
+                            System.out.println(wordA);
+                        }
+                        break;
+                    case "b":
+
+                        if (wordB.isEmpty()) {
+                            System.out.println("no existe nada almacenado con la letra b");
+                        } else {
+                            System.out.println(wordB);
+                        }
+                        break;
+                    case "c":
+
+                        if (wordC.isEmpty()) {
+                            System.out.println("no existe nada almacenado con la letra c");
+                        } else {
+                            System.out.println(wordC);
+                        }
+                        break;
+                    case "d":
+
+                        if (wordD.isEmpty()) {
+                            System.out.println("no existe nada almacenado con la letra d");
+                        } else {
+                            System.out.println(wordD);
+                        }
+                        break;
+                    case "e":
+
+                        if (wordE.isEmpty()) {
+                            System.out.println("no existe nada almacenado con la letra e");
+                        } else {
+                            System.out.println(wordE);
+                        }
+                        break;
+                    case "f":
+
+                        if (wordF.isEmpty()) {
+                            System.out.println("no existe nada almacenado con la letra f");
+                        } else {
+                            System.out.println(wordF);
+                        }
+                        break;
+                    case "g":
+
+                        if (wordG.isEmpty()) {
+                            System.out.println("no existe nada almacenado con la letra g");
+                        } else {
+                            System.out.println(wordG);
+                        }
+                        break;
+                    case "h":
+                        if (wordH.isEmpty()) {
+                            System.out.println("no existe nada almacenado con la letra h");
+                        } else {
+                            System.out.println(wordH);
+                        }
+                        break;
+                    case "i":
+
+                        if (wordI.isEmpty()) {
+                            System.out.println("no existe nada almacenado con la letra i");
+                        } else {
+                            System.out.println(wordI);
+                        }
+                        break;
+                    case "j":
+
+                        if (wordJ.isEmpty()) {
+                            System.out.println("no existe nada almacenado con la letra j");
+                        } else {
+                            System.out.println(wordJ);
+                        }
+                        break;
+                    case "k":
+
+                        if (wordK.isEmpty()) {
+                            System.out.println("no existe nada almacenado con la letra k");
+                        } else {
+                            System.out.println(wordK);
+                        }
+                        break;
+                    case "m":
+
+                        if (wordM.isEmpty()) {
+                            System.out.println("no existe nada almacenado con la letra m");
+                        } else {
+                            System.out.println(wordM);
+                        }
+                        break;
+                    case "n":
+
+                        if (wordN.isEmpty()) {
+                            System.out.println("no existe nada almacenado con la letra n");
+                        } else {
+                            System.out.println(wordN);
+                        }
+                        break;
+                    case "ñ":
+
+                        if (wordÑ.isEmpty()) {
+                            System.out.println("no existe nada almacenado con la letra ñ");
+                        } else {
+                            System.out.println(wordÑ);
+                        }
+                        break;
+                    case "o":
+
+                        if (wordO.isEmpty()) {
+                            System.out.println("no existe nada almacenado con la letra o");
+                        } else {
+                            System.out.println(wordO);
+                        }
+                        break;
+                    case "p":
+
+                        if (wordP.isEmpty()) {
+                            System.out.println("no existe nada almacenado con la letra p");
+                        } else {
+                            System.out.println(wordP);
+                        }
+                        break;
+                    case "q":
+
+                        if (wordQ.isEmpty()) {
+                            System.out.println("no existe nada almacenado con la letra q");
+                        } else {
+                            System.out.println(wordQ);
+                        }
+                        break;
+                    case "r":
+
+                        if (wordR.isEmpty()) {
+                            System.out.println("no existe nada almacenado con la letra r");
+                        } else {
+                            System.out.println(wordR);
+                        }
+                        break;
+                    case "s":
+
+                        if (wordS.isEmpty()) {
+                            System.out.println("no existe nada almacenado con la letra s");
+                        } else {
+                            System.out.println(wordS);
+                        }
+                        break;
+                    case "t":
+
+                        if (wordT.isEmpty()) {
+                            System.out.println("no existe nada almacenado con la letra t");
+                        } else {
+                            System.out.println(wordT);
+                        }
+                        break;
+                    case "u":
+
+                        if (wordU.isEmpty()) {
+                            System.out.println("no existe nada almacenado con la letra u");
+                        } else {
+                            System.out.println(wordU);
+                        }
+                        break;
+                    case "v":
+
+                        if (wordV.isEmpty()) {
+                            System.out.println("no existe nada almacenado con la letra v");
+                        } else {
+                            System.out.println(wordV);
+                        }
+                        break;
+                    case "w":
+
+                        if (wordW.isEmpty()) {
+                            System.out.println("no existe nada almacenado con la letra w");
+                        } else {
+                            System.out.println(wordW);
+                        }
+                        break;
+                    case "x":
+
+                        if (wordX.isEmpty()) {
+                            System.out.println("no existe nada almacenado con la letra x");
+                        } else {
+                            System.out.println(wordX);
+                        }
+                        break;
+                    case "y":
+
+                        if (wordY.isEmpty()) {
+                            System.out.println("no existe nada almacenado con la letra y");
+                        } else {
+                            System.out.println(wordY);
+                        }
+                        break;
+                    case "z":
+
+                        if (wordA.isEmpty()) {
+                            System.out.println("no existe nada almacenado con la letra z");
+                        } else {
+                            System.out.println(wordZ);
+                        }
+                        break;
+                                                                                                                                                                                                                                                                                                                                                
+                    default:
+                        System.out.println("no has introducido una inicial válida");
+                        break;
+                }
+            }
+            
+        } else {
+            System.out.println("Has excedido el número de caracteres para poner una letra inicial");
+        }
+    }
 }
