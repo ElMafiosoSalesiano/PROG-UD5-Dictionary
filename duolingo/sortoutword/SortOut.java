@@ -42,48 +42,48 @@ public class SortOut {
         switch (firstLetter) {
             case "a":
                 if (word.isEmpty()) {
-                    System.out.println("No introdujo nada");
+                    System.out.println("You dont introduced nothing");
                 } else {
                     wordA.add(word);
                 }
                 sortWord.put(firstLetter, wordA);
-                System.out.println("Palabra introducida; "+ word +"." );
+                System.out.println("Introduced word; "+ word +"." );
                 break;
             case "b":
                 if (word.isEmpty()) {
-                    System.out.println("No introdujo nada");
+                    System.out.println("You dont introduced nothing");
                 } else {
                     wordB.add(word);
                 }
                 sortWord.put(firstLetter, wordB);
-                System.out.println("Palabra introducida; "+ word +"." );
+                System.out.println("Introduced word; "+ word +"." );
                 break;
             case "c":
                 if (word.isEmpty()) {
-                    System.out.println("No introdujo nada");
+                    System.out.println("You dont introduced nothing");
                 } else {
                     wordC.add(word);
                 }
                 sortWord.put(firstLetter, wordC);
-                System.out.println("Palabra introducida; "+ word +"." );
+                System.out.println("Introduced word; "+ word +"." );
                 break;
             case "d":
                 if (word.isEmpty()) {
-                    System.out.println("No introdujo nada");
+                    System.out.println("You dont introduced nothing");
                 } else {
                     wordD.add(word);
                 }
                 sortWord.put(firstLetter, wordD);
-                System.out.println("Palabra introducida; "+ word +"." );
+                System.out.println("Introduced word; "+ word +"." );
                 break;
             case "e":
                 if (word.isEmpty()) {
-                    System.out.println("No introdujo nada");
+                    System.out.println("");
                 } else {
                     wordE.add(word);
                 }
                 sortWord.put(firstLetter, wordE);
-                System.out.println("Palabra introducida; "+ word +"." );
+                System.out.println("Introduced word; "+ word +"." );
                 break;
             case "f":
                 if (word.isEmpty()) {
@@ -92,195 +92,195 @@ public class SortOut {
                     wordF.add(word);
                 }
                 sortWord.put(firstLetter, wordF);
-                System.out.println("Palabra introducida; "+ word +"." );
+                System.out.println("Introduced word; "+ word +"." );
                 break;
             case "g":
                 if (word.isEmpty()) {
-                    System.out.println("No introdujo nada");
+                    System.out.println("You dont introduced nothing");
                 } else {
                     wordG.add(word);
                 }
                 sortWord.put(firstLetter, wordG);
-                System.out.println("Palabra introducida; "+ word +"." );
+                System.out.println("Introduced word; "+ word +"." );
                 break;
             case "h":
                 if (word.isEmpty()) {
-                    System.out.println("No introdujo nada");
+                    System.out.println("You dont introduced nothing");
                 } else {
                     wordH.add(word);
                 }
                 sortWord.put(firstLetter, wordH);
-                System.out.println("Palabra introducida; "+ word +"." );
+                System.out.println("Introduced word; "+ word +"." );
                 break;
             case "i":
                 if (word.isEmpty()) {
-                    System.out.println("No introdujo nada");
+                    System.out.println("You dont introduced nothing");
                 } else {
                     wordI.add(word);
                 }
                 sortWord.put(firstLetter, wordI);
-                System.out.println("Palabra introducida; "+ word +"." );
+                System.out.println("Introduced word; "+ word +"." );
                 break;
             case "j":
                 if (word.isEmpty()) {
-                    System.out.println("No introdujo nada");
+                    System.out.println("You dont introduced nothing");
                 } else {
                     wordJ.add(word);
                 }
                 sortWord.put(firstLetter, wordJ);
-                System.out.println("Palabra introducida; "+ word +"." );
+                System.out.println("Introduced word; "+ word +"." );
                 break;
             case "k":
                 if (word.isEmpty()) {
-                    System.out.println("No introdujo nada");
+                    System.out.println("You dont introduced nothing");
                 } else {
                     wordK.add(word);
                 }
                 sortWord.put(firstLetter, wordK);
-                System.out.println(sortWord);
+                System.out.println("Introduced word; "+ word +"." );
                 break;
             case "m":
                 if (word.isEmpty()) {
-                    System.out.println("No introdujo nada");
+                    System.out.println("You dont introduced nothing");
                 } else {
                     wordM.add(word);
                 }
                 sortWord.put(firstLetter, wordM);
-                System.out.println(sortWord);
+                System.out.println("Introduced word; "+ word +"." );
                 break;
             case "n":
                 if (word.isEmpty()) {
-                    System.out.println("No introdujo nada");
+                    System.out.println("You dont introduced nothing");
                 } else {
                     wordN.add(word);
                 }
                 sortWord.put(firstLetter, wordN);
-                System.out.println(sortWord);
+                System.out.println("Introduced word; "+ word +"." );
                 break;
             case "ñ":
                 if (word.isEmpty()) {
-                    System.out.println("No introdujo nada");
+                    System.out.println("You dont introduced nothing");
                 } else {
                     wordÑ.add(word);
                 }
                 sortWord.put(firstLetter, wordÑ);
-                System.out.println(sortWord);
+                System.out.println("Introduced word; "+ word +"." );
                 break;
             case "o":
                 if (word.isEmpty()) {
-                    System.out.println("No introdujo nada");
+                    System.out.println("You dont introduced nothing");
                 } else {
                     wordO.add(word);
                 }
                 sortWord.put(firstLetter, wordO);
-                System.out.println(sortWord);
+                System.out.println("Introduced word; "+ word +"." );
                 break;
             case "p":
                 if (word.isEmpty()) {
-                    System.out.println("No introdujo nada");
+                    System.out.println("You dont introduced nothing");
                 } else {
                     wordP.add(word);
                 }
                 sortWord.put(firstLetter, wordP);
-                System.out.println(sortWord);
+                System.out.println("Introduced word; "+ word +"." );
                 break;
             case "q":
                 if (word.isEmpty()) {
-                    System.out.println("No introdujo nada");
+                    System.out.println("You dont introduced nothing");
                 } else {
                     wordQ.add(word);
                 }
                 sortWord.put(firstLetter, wordQ);
-                System.out.println(sortWord);
+                System.out.println("Introduced word; "+ word +"." );
                 break;
             case "r":
                 if (word.isEmpty()) {
-                    System.out.println("No introdujo nada");
+                    System.out.println("You dont introduced nothing");
                 } else {
                     wordR.add(word);
                 }
                 sortWord.put(firstLetter, wordR);
-                System.out.println(sortWord);
+                System.out.println("Introduced word; "+ word +"." );
                 break;
             case "s":
                 if (word.isEmpty()) {
-                    System.out.println("No introdujo nada");
+                    System.out.println("You dont introduced nothing");
                 } else {
                     wordS.add(word);
                 }
                 sortWord.put(firstLetter, wordS);
-                System.out.println(sortWord);
+                System.out.println("Introduced word; "+ word +"." );
                 break;
             case "t":
                 if (word.isEmpty()) {
-                    System.out.println("No introdujo nada");
+                    System.out.println("You dont introduced nothing");
                 } else {
                     wordT.add(word);
                 }
                 sortWord.put(firstLetter, wordT);
-                System.out.println(sortWord);
+                System.out.println("Introduced word; "+ word +"." );
                 break;
             case "u":
                 if (word.isEmpty()) {
-                    System.out.println("No introdujo nada");
+                    System.out.println("You dont introduced nothing");
                 } else {
                     wordU.add(word);
                 }
                 sortWord.put(firstLetter, wordU);
-                System.out.println(sortWord);
+                System.out.println("Introduced word; "+ word +"." );
                 break;
             case "v":
                 if (word.isEmpty()) {
-                    System.out.println("No introdujo nada");
+                    System.out.println("You dont introduced nothing");
                 } else {
                     wordV.add(word);
                 }
                 sortWord.put(firstLetter, wordV);
-                System.out.println(sortWord);
+                System.out.println("Introduced word; "+ word +"." );
                 break;
             case "w":
                 if (word.isEmpty()) {
-                    System.out.println("No introdujo nada");
+                    System.out.println("You dont introduced nothing");
                 } else {
                     wordW.add(word);
                 }
                 sortWord.put(firstLetter, wordW);
-                System.out.println(sortWord);
+                System.out.println("Introduced word; "+ word +"." );
                 break;
             case "x":
             if (word.isEmpty()) {
-                System.out.println("No introdujo nada");
+                System.out.println("You dont introduced nothing");
             } else {
                 wordX.add(word);
             }
-            sortWord.put(firstLetter, wordX);
+            System.out.println("Introduced word; "+ word +"." );
             case "y":
                 if (word.isEmpty()) {
-                    System.out.println("No introdujo nada");
+                    System.out.println("You dont introduced nothing");
                 } else {
                     wordY.add(word);
                 }
                 sortWord.put(firstLetter, wordY);
-                System.out.println(sortWord);
+                System.out.println("Introduced word; "+ word +"." );
                 break;
             case "z":
                 if (word.isEmpty()) {
-                    System.out.println("No introdujo nada");
+                    System.out.println("You dont introduced nothing");
                 } else {
                     wordZ.add(word);
                 }
                 sortWord.put(firstLetter, wordZ);
-                System.out.println(sortWord);
+                System.out.println("Introduced word; "+ word +"." );
                 break;
             default:
-                System.out.println("no has introducido una palabra válida");
+                System.out.println("you introduced a wrong word");
                 break;
         }
     }
 
     public static void eraseWord(){
         final Scanner SCANNER = new Scanner(System.in);
-        System.out.println("¿Qué palabras deseas eliminar?");
+        System.out.println("¿What word do you want to delete?");
         String eraseWord = SCANNER.nextLine().toLowerCase().trim();
         char firstCharacter = eraseWord.charAt(0);
         String firstLetter = Character.toString(firstCharacter);
@@ -294,7 +294,7 @@ public class SortOut {
                     }
                     System.out.println(sortWord);
                 } else {
-                    System.out.println("No existen letras almacenadas con esa inicial.");
+                    System.out.println("There arent words by this initial.");
                 }
                 break;
                 case "b":
@@ -306,7 +306,7 @@ public class SortOut {
                     }
                     System.out.println(sortWord);
                 } else {
-                    System.out.println("No existen letras almacenadas con esa inicial.");
+                    System.out.println("There arent words by this initial.");
                 }
                 break;
                 case "c":
@@ -318,7 +318,7 @@ public class SortOut {
                     }
                     System.out.println(sortWord);
                 } else {
-                    System.out.println("No existen letras almacenadas con esa inicial.");
+                    System.out.println("There arent words by this initial.");
                 }
                 break;
                 case "d":
@@ -330,7 +330,7 @@ public class SortOut {
                     }
                     System.out.println(sortWord);
                 } else {
-                    System.out.println("No existen letras almacenadas con esa inicial.");
+                    System.out.println("There arent words by this initial.");
                 }
                 break;
                 case "e":
@@ -342,7 +342,7 @@ public class SortOut {
                     }
                     System.out.println(sortWord);
                 } else {
-                    System.out.println("No existen letras almacenadas con esa inicial.");
+                    System.out.println("There arent words by this initial.");
                 }
                 break;
                 case "f":
@@ -354,7 +354,7 @@ public class SortOut {
                     }
                     System.out.println(sortWord);
                 } else {
-                    System.out.println("No existen letras almacenadas con esa inicial.");
+                    System.out.println("There arent words by this initial.");
                 }
                 break;
                 case "g":
@@ -366,7 +366,7 @@ public class SortOut {
                     }
                     System.out.println(sortWord);
                 } else {
-                    System.out.println("No existen letras almacenadas con esa inicial.");
+                    System.out.println("There arent words by this initial.");
                 }
                 break;
                 case "h":
@@ -378,7 +378,7 @@ public class SortOut {
                     }
                     System.out.println(sortWord);
                 } else {
-                    System.out.println("No existen letras almacenadas con esa inicial.");
+                    System.out.println("There arent words by this initial.");
                 }
                 break;
                 case "i":
@@ -390,7 +390,7 @@ public class SortOut {
                     }
                     System.out.println(sortWord);
                 } else {
-                    System.out.println("No existen letras almacenadas con esa inicial.");
+                    System.out.println("There arent words by this initial.");
                 }
                 break;
                 case "j":
@@ -402,7 +402,7 @@ public class SortOut {
                     }
                     System.out.println(sortWord);
                 } else {
-                    System.out.println("No existen letras almacenadas con esa inicial.");
+                    System.out.println("There arent words by this initial.");
                 }
                 break;
                 case "k":
@@ -414,7 +414,7 @@ public class SortOut {
                     }
                     System.out.println(sortWord);
                 } else {
-                    System.out.println("No existen letras almacenadas con esa inicial.");
+                    System.out.println("There arent words by this initial.");
                 }
                 break;
                 case "m":
@@ -426,7 +426,7 @@ public class SortOut {
                     }
                     System.out.println(sortWord);
                 } else {
-                    System.out.println("No existen letras almacenadas con esa inicial.");
+                    System.out.println("There arent words by this initial.");
                 }
                 break;
                 case "n":
@@ -438,7 +438,7 @@ public class SortOut {
                     }
                     System.out.println(sortWord);
                 } else {
-                    System.out.println("No existen letras almacenadas con esa inicial.");
+                    System.out.println("There arent words by this initial.");
                 }
                 break;
                 case "ñ":
@@ -450,7 +450,7 @@ public class SortOut {
                     }
                     System.out.println(sortWord);
                 } else {
-                    System.out.println("No existen letras almacenadas con esa inicial.");
+                    System.out.println("There arent words by this initial.");
                 }
                 break;
                 case "o":
@@ -462,7 +462,7 @@ public class SortOut {
                     }
                     System.out.println(sortWord);
                 } else {
-                    System.out.println("No existen letras almacenadas con esa inicial.");
+                    System.out.println("There arent words by this initial.");
                 }
                 break;
                 case "p":
@@ -474,7 +474,7 @@ public class SortOut {
                     }
                     System.out.println(sortWord);
                 } else {
-                    System.out.println("No existen letras almacenadas con esa inicial.");
+                    System.out.println("There arent words by this initial.");
                 }
                 break;
                 case "q":
@@ -486,7 +486,7 @@ public class SortOut {
                     }
                     System.out.println(sortWord);
                 } else {
-                    System.out.println("No existen letras almacenadas con esa inicial.");
+                    System.out.println("There arent words by this initial.");
                 }
                 break;
                 case "r":
@@ -498,7 +498,7 @@ public class SortOut {
                     }
                     System.out.println(sortWord);
                 } else {
-                    System.out.println("No existen letras almacenadas con esa inicial.");
+                    System.out.println("There arent words by this initial.");
                 }
                 break;
                 case "s":
@@ -510,7 +510,7 @@ public class SortOut {
                     }
                     System.out.println(sortWord);
                 } else {
-                    System.out.println("No existen letras almacenadas con esa inicial.");
+                    System.out.println("There arent words by this initial.");
                 }
                 break;
                 case "t":
@@ -522,7 +522,7 @@ public class SortOut {
                     }
                     System.out.println(sortWord);
                 } else {
-                    System.out.println("No existen letras almacenadas con esa inicial.");
+                    System.out.println("There arent words by this initial.");
                 }
                 break;
                 case "u":
@@ -534,7 +534,7 @@ public class SortOut {
                     }
                     System.out.println(sortWord);
                 } else {
-                    System.out.println("No existen letras almacenadas con esa inicial.");
+                    System.out.println("There arent words by this initial.");
                 }
                 break;
                 case "v":
@@ -546,7 +546,7 @@ public class SortOut {
                     }
                     System.out.println(sortWord);
                 } else {
-                    System.out.println("No existen letras almacenadas con esa inicial.");
+                    System.out.println("There arent words by this initial.");
                 }
                 break;
                 case "w":
@@ -558,7 +558,7 @@ public class SortOut {
                     }
                     System.out.println(sortWord);
                 } else {
-                    System.out.println("No existen letras almacenadas con esa inicial.");
+                    System.out.println("There arent words by this initial.");
                 }
                 break;
                 case "x":
@@ -570,7 +570,7 @@ public class SortOut {
                     }
                     System.out.println(sortWord);
                 } else {
-                    System.out.println("No existen letras almacenadas con esa inicial.");
+                    System.out.println("There arent words by this initial.");
                 }
                 case "y":
                 if (sortWord.containsKey(firstLetter)) {
@@ -581,7 +581,7 @@ public class SortOut {
                     }
                     System.out.println(sortWord);
                 } else {
-                    System.out.println("No existen letras almacenadas con esa inicial.");
+                    System.out.println("There arent words by this initial.");
                 }
                 break;
                 case "z":
@@ -593,316 +593,315 @@ public class SortOut {
                     }
                     System.out.println(sortWord);
                 } else {
-                    System.out.println("No existen letras almacenadas con esa inicial.");
+                    System.out.println("There arent words by this initial.");
                 }
                 break;
             default:
-                System.out.println("no has introducido una palabra válida");
+                System.out.println("You dindt introduced an allowed word");
                 break;
         }
     }
     
     public static void findWord(){
         final Scanner SCANNER = new Scanner(System.in);
-        System.out.println("palabra que quieras buscar");
+        System.out.println("word that you want to find it");
         String word = SCANNER.nextLine().toLowerCase().trim();
         char firstCharacter = word.charAt(0);
         String firstLetter = Character.toString(firstCharacter);
         switch (firstLetter) {
             case "a":
                 if (word.isEmpty()) {
-                    System.out.println("No introdujo nada");
+                    System.out.println("you dont introduced nothing");
                 } else {
                     for (String string : wordA) {
                         if (word.equals(string)) {
-                            System.out.println("palabra encontrada con éxito: " + word);
+                            System.out.println("Word was found it successfully: " + word);
                         }
                     }
                 }
                 break;
             case "b":
                 if (word.isEmpty()) {
-                    System.out.println("No introdujo nada");
+                    System.out.println("you dont introduced nothing");
                 } else {
                     for (String string : wordB) {
                         if (word.equals(string)) {
-                            System.out.println("palabra encontrada con éxito: " + word);
+                            System.out.println("Word was found it successfully: " + word);
                         }
                     }
                 }
                 break;
             case "c":
                 if (word.isEmpty()) {
-                    System.out.println("No introdujo nada");
+                    System.out.println("you dont introduced nothing");
                 } else {
                     for (String string : wordC) {
                         if (word.equals(string)) {
-                            System.out.println("palabra encontrada con éxito: " + word);
+                            System.out.println("Word was found it successfully: " + word);
                         }
                     }
                 }
                 break;
             case "d":
                 if (word.isEmpty()) {
-                    System.out.println("No introdujo nada");
+                    System.out.println("you dont introduced nothing");
                 } else {
                     for (String string : wordD) {
                         if (word.equals(string)) {
-                            System.out.println("palabra encontrada con éxito: " + word);
+                            System.out.println("Word was found it successfully: " + word);
                         }
                     }
                 }
                 break;
             case "e":
                 if (word.isEmpty()) {
-                    System.out.println("No introdujo nada");
+                    System.out.println("you dont introduced nothing");
                 } else {
                     for (String string : wordE) {
                         if (word.equals(string)) {
-                            System.out.println("palabra encontrada con éxito: " + word);
+                            System.out.println("Word was found it successfully: " + word);
                         }
                     }
                 }
                 break;
             case "f":
                 if (word.isEmpty()) {
-                    System.out.println("No introdujo nada");
+                    System.out.println("you dont introduced nothing");
                 } else {
                     for (String string : wordF) {
                         if (word.equals(string)) {
-                            System.out.println("palabra encontrada con éxito: " + word);
+                            System.out.println("Word was found it successfully: " + word);
                         }
                     }
                 }
                 break;
             case "g":
                 if (word.isEmpty()) {
-                    System.out.println("No introdujo nada");
+                    System.out.println("you dont introduced nothing");
                 } else {
                     for (String string : wordG) {
                         if (word.equals(string)) {
-                            System.out.println("palabra encontrada con éxito: " + word);
+                            System.out.println("Word was found it successfully: " + word);
                         }
                     }
                 }
                 break;
             case "h":
                 if (word.isEmpty()) {
-                    System.out.println("No introdujo nada");
+                    System.out.println("you dont introduced nothing");
                 } else {
                     for (String string : wordH) {
                         if (word.equals(string)) {
-                            System.out.println("palabra encontrada con éxito: " + word);
+                            System.out.println("Word was found it successfully: " + word);
                         }
                     }
                 }
                 break;
             case "i":
                 if (word.isEmpty()) {
-                    System.out.println("No introdujo nada");
+                    System.out.println("you dont introduced nothing");
                 } else {
                     for (String string : wordI) {
                         if (word.equals(string)) {
-                            System.out.println("palabra encontrada con éxito: " + word);
+                            System.out.println("Word was found it successfully: " + word);
                         }
                     }
                 }
                 break;
             case "j":
                 if (word.isEmpty()) {
-                    System.out.println("No introdujo nada");
+                    System.out.println("you dont introduced nothing");
                 } else {
                     for (String string : wordJ) {
                         if (word.equals(string)) {
-                            System.out.println("palabra encontrada con éxito: " + word);
+                            System.out.println("Word was found it successfully: " + word);
                         }
                     }
                 }
                 break;
             case "k":
                 if (word.isEmpty()) {
-                    System.out.println("No introdujo nada");
+                    System.out.println("you dont introduced nothing");
                 } else {
                     for (String string : wordK) {
                         if (word.equals(string)) {
-                            System.out.println("palabra encontrada con éxito: " + word);
+                            System.out.println("Word was found it successfully: " + word);
                         }
                     }
                 }
                 break;
             case "m":
                 if (word.isEmpty()) {
-                    System.out.println("No introdujo nada");
+                    System.out.println("you dont introduced nothing");
                 } else {
                     for (String string : wordM) {
                         if (word.equals(string)) {
-                            System.out.println("palabra encontrada con éxito: " + word);
+                            System.out.println("Word was found it successfully: " + word);
                         }
                     }
                 }
                 break;
             case "n":
                 if (word.isEmpty()) {
-                    System.out.println("No introdujo nada");
+                    System.out.println("you dont introduced nothing");
                 } else {
                     for (String string : wordN) {
                         if (word.equals(string)) {
-                            System.out.println("palabra encontrada con éxito: " + word);
+                            System.out.println("Word was found it successfully: " + word);
                         }
                     }
                 }
                 break;
             case "ñ":
                 if (word.isEmpty()) {
-                    System.out.println("No introdujo nada");
+                    System.out.println("you dont introduced nothing");
                 } else {
                     for (String string : wordÑ) {
                         if (word.equals(string)) {
-                            System.out.println("palabra encontrada con éxito: " + word);
+                            System.out.println("Word was found it successfully: " + word);
                         }
                     }
                 }
                 break;
             case "o":
                 if (word.isEmpty()) {
-                    System.out.println("No introdujo nada");
+                    System.out.println("you dont introduced nothing");
                 } else {
                     for (String string : wordO) {
                         if (word.equals(string)) {
-                            System.out.println("palabra encontrada con éxito: " + word);
+                            System.out.println("Word was found it successfully: " + word);
                         }
                     }
                 }
                 break;
             case "p":
                 if (word.isEmpty()) {
-                    System.out.println("No introdujo nada");
+                    System.out.println("you dont introduced nothing");
                 } else {
                     for (String string : wordP) {
                         if (word.equals(string)) {
-                            System.out.println("palabra encontrada con éxito: " + word);
+                            System.out.println("Word was found it successfully: " + word);
                         }
                     }
                 }
                 break;
             case "q":
                 if (word.isEmpty()) {
-                    System.out.println("No introdujo nada");
+                    System.out.println("you dont introduced nothing");
                 } else {
                     for (String string : wordQ) {
                         if (word.equals(string)) {
-                            System.out.println("palabra encontrada con éxito: " + word);
+                            System.out.println("Word was found it successfully: " + word);
                         }
                     }
                 }
                 break;
             case "r":
                 if (word.isEmpty()) {
-                    System.out.println("No introdujo nada");
+                    System.out.println("you dont introduced nothing");
                 } else {
                     for (String string : wordR) {
                         if (word.equals(string)) {
-                            System.out.println("palabra encontrada con éxito: " + word);
+                            System.out.println("Word was found it successfully: " + word);
                         }
                     }
                 }
                 break;
             case "s":
                 if (word.isEmpty()) {
-                    System.out.println("No introdujo nada");
+                    System.out.println("you dont introduced nothing");
                 } else {
                     for (String string : wordS) {
                         if (word.equals(string)) {
-                            System.out.println("palabra encontrada con éxito: " + word);
+                            System.out.println("Word was found it successfully: " + word);
                         }
                     }
                 }
                 break;
             case "t":
                 if (word.isEmpty()) {
-                    System.out.println("No introdujo nada");
+                    System.out.println("you dont introduced nothing");
                 } else {
                     for (String string : wordT) {
                         if (word.equals(string)) {
-                            System.out.println("palabra encontrada con éxito: " + word);
+                            System.out.println("Word was found it successfully: " + word);
                         }
                     }
                 }
                 break;
             case "u":
                 if (word.isEmpty()) {
-                    System.out.println("No introdujo nada");
+                    System.out.println("you dont introduced nothing");
                 } else {
                     for (String string : wordU) {
                         if (word.equals(string)) {
-                            System.out.println("palabra encontrada con éxito: " + word);
+                            System.out.println("Word was found it successfully: " + word);
                         }
                     }
                 }
                 break;
             case "v":
                 if (word.isEmpty()) {
-                    System.out.println("No introdujo nada");
+                    System.out.println("you dont introduced nothing");
                 } else {
                     for (String string : wordV) {
                         if (word.equals(string)) {
-                            System.out.println("palabra encontrada con éxito: " + word);
+                            System.out.println("Word was found it successfully: " + word);
                         }
                     }
                 }
                 break;
             case "w":
                 if (word.isEmpty()) {
-                    System.out.println("No introdujo nada");
+                    System.out.println("you dont introduced nothing");
                 } else {
                     for (String string : wordW) {
                         if (word.equals(string)) {
-                            System.out.println("palabra encontrada con éxito: " + word);
+                            System.out.println("Word was found it successfully: " + word);
                         }
                     }
                 }
                 break;
             case "x":
             if (word.isEmpty()) {
-                System.out.println("No introdujo nada");
+                System.out.println("you dont introduced nothing");
             } else {
                 for (String string : wordX) {
                     if (word.equals(string)) {
-                        System.out.println("palabra encontrada con éxito: " + word);
+                        System.out.println("Word was found it successfully: " + word);
                     }
                 }
             }
             case "y":
                 if (word.isEmpty()) {
-                    System.out.println("No introdujo nada");
+                    System.out.println("you dont introduced nothing");
                 } else {
                     for (String string : wordY) {
                         if (word.equals(string)) {
-                            System.out.println("palabra encontrada con éxito: " + word);
+                            System.out.println("Word was found it successfully: " + word);
                         }
                     }
                 }
                 break;
             case "z":
                 if (word.isEmpty()) {
-                    System.out.println("No introdujo nada");
+                    System.out.println("you dont introduced nothing");
                 } else {
                     for (String string : wordZ) {
                         if (word.equals(string)) {
-                            System.out.println("palabra encontrada con éxito: " + word);
+                            System.out.println("Word was found it successfully: " + word);
                         }
                     }
                 }
                 break;
             default:
-                System.out.println("no has introducido una palabra válida");
+                System.out.println("you didnt introduced a valid word.");
                 break;
         }
     }
 
     public static void showInitials(){
         final Scanner SCANNER = new Scanner(System.in);
-        System.out.println("Todas las iniciales que guardan palabras;");
         if (wordA.isEmpty() && wordB.isEmpty() && wordC.isEmpty() && wordD.isEmpty() && wordE.isEmpty() && wordF.isEmpty() && wordG.isEmpty() && wordH.isEmpty() && wordI.isEmpty()
         && wordJ.isEmpty() && wordK.isEmpty() && wordM.isEmpty() && wordN.isEmpty() && wordO.isEmpty() && wordP.isEmpty() && wordQ.isEmpty() && wordR.isEmpty() &&
         wordS.isEmpty() && wordT.isEmpty() && wordU.isEmpty() && wordV.isEmpty() && wordW.isEmpty() && wordX.isEmpty() && wordY.isEmpty() && wordZ.isEmpty()) {
@@ -935,14 +934,14 @@ public class SortOut {
             System.out.println("ninguna letra contiene palabras almacenadas");
             
         } else {
-           
+            System.out.println("All inital letters that keep saving words;");
             if (sortWord.get("a") == null) {
                 sortWord.remove("a");
             } else {
                 if (sortWord.containsKey("a") && wordA.isEmpty()) {
                     
                 } else {
-                    System.out.println("La inicial " + " 'a' " + " tiene palabras guardadas.");
+                    System.out.println("The initial" + "'a'" + " have saved words.");
                 }
             }
                 
@@ -952,7 +951,7 @@ public class SortOut {
                 if (sortWord.containsKey("b") && wordB.isEmpty()) {
                     
                 } else {
-                    System.out.println("La inicial " + " 'b' " + " tiene palabras guardadas.");
+                    System.out.println("The initial" + "'b'" + " have saved words.");
                 }
             }
                 
@@ -962,7 +961,7 @@ public class SortOut {
                 if (sortWord.containsKey("c") && wordC.isEmpty()) {
                     
                 } else {
-                    System.out.println("La inicial " + " 'c' " + " tiene palabras guardadas.");
+                    System.out.println("The initial" + "'c'" + " have saved words.");
                 }
             }
             if (sortWord.get("d") == null) {
@@ -971,7 +970,7 @@ public class SortOut {
                 if (sortWord.containsKey("d") && wordD.isEmpty()) {
                     
                 } else {
-                    System.out.println("La inicial " + " 'c' " + " tiene palabras guardadas.");
+                    System.out.println("The initial" + "'d'" + " have saved words.");
                 }
             }
             if (sortWord.get("e") == null) {
@@ -980,7 +979,7 @@ public class SortOut {
                 if (sortWord.containsKey("e") && wordE.isEmpty()) {
                     
                 } else {
-                    System.out.println("La inicial " + " 'e' " + " tiene palabras guardadas.");
+                    System.out.println("The initial" + "'e'" + " have saved words.");
                 }
             }
             if (sortWord.get("f") == null) {
@@ -988,7 +987,7 @@ public class SortOut {
             } else {
                 if (sortWord.containsKey("f") && wordF.isEmpty()) {
                 } else {
-                    System.out.println("La inicial " + " 'f' " + " tiene palabras guardadas.");
+                    System.out.println("The initial" + "'f'" + " have saved words.");
                 }
             }
             if (sortWord.get("g") == null) {
@@ -996,7 +995,7 @@ public class SortOut {
             } else {
                 if (sortWord.containsKey("g") && wordG.isEmpty()) {
                 } else {
-                    System.out.println("La inicial " + " 'g' " + " tiene palabras guardadas.");
+                    System.out.println("The initial" + "'g'" + " have saved words.");
                 }
             }
             if (sortWord.get("h") == null) {
@@ -1005,7 +1004,7 @@ public class SortOut {
                 if (sortWord.containsKey("h") && wordH.isEmpty()) {
                     System.out.println("");
                 } else {
-                    System.out.println("La inicial " + " 'h' " + " tiene palabras guardadas.");
+                    System.out.println("The initial" + "'h'" + " have saved words.");
                 }
             }
             if (sortWord.get("i") == null) {
@@ -1013,16 +1012,7 @@ public class SortOut {
             } else {
                 if (sortWord.containsKey("i") && wordI.isEmpty()) {
                 } else {
-                    System.out.println("La inicial " + " 'i' " + " tiene palabras guardadas.");
-                }
-            }
-            if (sortWord.get("i") == null) {
-                sortWord.remove("i");
-            } else {
-                if (sortWord.containsKey("i") && wordI.isEmpty()) {
-                    System.out.println("");
-                } else {
-                    System.out.println("La inicial " + " 'i' " + " tiene palabras guardadas.");
+                    System.out.println("The initial" + "'i'" + " have saved words.");
                 }
             }
             if (sortWord.get("j") == null) {
@@ -1031,7 +1021,7 @@ public class SortOut {
                 if (sortWord.containsKey("j") && wordJ.isEmpty()) {
                     System.out.println("");
                 } else {
-                    System.out.println("La inicial " + " 'j' " + " tiene palabras guardadas.");
+                    System.out.println("The initial" + "'j'" + " have saved words.");
                 }
             }
             if (sortWord.get("k") == null) {
@@ -1040,7 +1030,7 @@ public class SortOut {
                 if (sortWord.containsKey("k") && wordK.isEmpty()) {
                     System.out.println("");
                 } else {
-                    System.out.println("La inicial " + " 'k' " + " tiene palabras guardadas.");
+                    System.out.println("The initial" + "'k'" + " have saved words.");
                 }
             }
             if (sortWord.get("m") == null) {
@@ -1049,7 +1039,7 @@ public class SortOut {
                 if (sortWord.containsKey("m") && wordM.isEmpty()) {
                     System.out.println("");
                 } else {
-                    System.out.println("La inicial " + " 'm' " + " tiene palabras guardadas.");
+                    System.out.println("The initial" + "'m'" + " have saved words.");
                 }
             }
             if (sortWord.get("n") == null) {
@@ -1058,7 +1048,7 @@ public class SortOut {
                 if (sortWord.containsKey("n") && wordN.isEmpty()) {
                     System.out.println("");
                 } else {
-                    System.out.println("La inicial " + " 'n' " + " tiene palabras guardadas.");
+                    System.out.println("The initial" + "'n'" + " have saved words.");
                 }
             }
             if (sortWord.get("ñ") == null) {
@@ -1067,7 +1057,7 @@ public class SortOut {
                 if (sortWord.containsKey("ñ") && wordÑ.isEmpty()) {
                     System.out.println("");
                 } else {
-                    System.out.println("La inicial " + " 'ñ' " + " tiene palabras guardadas.");
+                    System.out.println("The initial" + "'ñ'" + " have saved words.");
                 }
             }
             if (sortWord.get("o") == null) {
@@ -1076,7 +1066,7 @@ public class SortOut {
                 if (sortWord.containsKey("o") && wordO.isEmpty()) {
                     System.out.println("");
                 } else {
-                    System.out.println("La inicial " + " 'o' " + " tiene palabras guardadas.");
+                    System.out.println("The initial" + "'o'" + " have saved words.");
                 }
             }
             if (sortWord.get("p") == null) {
@@ -1085,7 +1075,7 @@ public class SortOut {
                 if (sortWord.containsKey("p") && wordP.isEmpty()) {
                     System.out.println("");
                 } else {
-                    System.out.println("La inicial " + " 'p' " + " tiene palabras guardadas.");
+                    System.out.println("The initial" + "'p'" + " have saved words.");
                 }
             }
             if (sortWord.get("q") == null) {
@@ -1094,7 +1084,7 @@ public class SortOut {
                 if (sortWord.containsKey("q") && wordQ.isEmpty()) {
                     System.out.println("");
                 } else {
-                    System.out.println("La inicial " + " 'q' " + " tiene palabras guardadas.");
+                    System.out.println("The initial" + "'q'" + " have saved words.");
                 }
             }
             if (sortWord.get("r") == null) {
@@ -1103,7 +1093,7 @@ public class SortOut {
                 if (sortWord.containsKey("r") && wordR.isEmpty()) {
                     System.out.println("");
                 } else {
-                    System.out.println("La inicial " + " 'r' " + " tiene palabras guardadas.");
+                    System.out.println("The initial" + "'r'" + " have saved words.");
                 }
             }
             if (sortWord.get("s") == null) {
@@ -1112,7 +1102,7 @@ public class SortOut {
                 if (sortWord.containsKey("s") && wordS.isEmpty()) {
                     System.out.println("");
                 } else {
-                    System.out.println("La inicial " + " 's' " + " tiene palabras guardadas.");
+                    System.out.println("The initial" + "'s'" + " have saved words.");
                 }
             }
             if (sortWord.get("t") == null) {
@@ -1121,7 +1111,7 @@ public class SortOut {
                 if (sortWord.containsKey("t") && wordT.isEmpty()) {
                     System.out.println("");
                 } else {
-                    System.out.println("La inicial " + " 't' " + " tiene palabras guardadas.");
+                    System.out.println("The initial" + "'t'" + " have saved words.");
                 }
             }
             if (sortWord.get("u") == null) {
@@ -1130,7 +1120,7 @@ public class SortOut {
                 if (sortWord.containsKey("u") && wordU.isEmpty()) {
                     System.out.println("");
                 } else {
-                    System.out.println("La inicial " + " 'u' " + " tiene palabras guardadas.");
+                    System.out.println("The initial" + "'u'" + " have saved words.");
                 }
             }
             if (sortWord.get("v") == null) {
@@ -1139,7 +1129,7 @@ public class SortOut {
                 if (sortWord.containsKey("v") && wordV.isEmpty()) {
                     System.out.println("");
                 } else {
-                    System.out.println("La inicial " + " 'v' " + " tiene palabras guardadas.");
+                    System.out.println("The initial" + "'v'" + " have saved words.");
                 }
             }
             if (sortWord.get("w") == null) {
@@ -1148,7 +1138,7 @@ public class SortOut {
                 if (sortWord.containsKey("w") && wordW.isEmpty()) {
                     System.out.println("");
                 } else {
-                    System.out.println("La inicial " + " 'w' " + " tiene palabras guardadas.");
+                    System.out.println("The initial" + "'w'" + " have saved words.");
                 }
             }
             if (sortWord.get("x") == null) {
@@ -1157,7 +1147,7 @@ public class SortOut {
                 if (sortWord.containsKey("x") && wordX.isEmpty()) {
                     System.out.println("");
                 } else {
-                    System.out.println("La inicial " + " 'x' " + " tiene palabras guardadas.");
+                    System.out.println("The initial" + "'x'" + " have saved words.");
                 }
             }
             if (sortWord.get("y") == null) {
@@ -1166,7 +1156,7 @@ public class SortOut {
                 if (sortWord.containsKey("y") && wordY.isEmpty()) {
                     System.out.println("");
                 } else {
-                    System.out.println("La inicial " + " 'y' " + " tiene palabras guardadas.");
+                    System.out.println("The initial" + "'y'" + " have saved words.");
                 }
             }
             if (sortWord.get("z") == null) {
@@ -1175,7 +1165,7 @@ public class SortOut {
                 if (sortWord.containsKey("z") && wordZ.isEmpty()) {
                     System.out.println("");
                 } else {
-                    System.out.println("La inicial " + " 'z' " + " tiene palabras guardadas.");
+                    System.out.println("The initial" + "'z'" + " have saved words.");
                 }
             }
 
@@ -1183,17 +1173,17 @@ public class SortOut {
     }
     public static void wordsByInitials(){
         final Scanner SCANNER = new Scanner(System.in);
-        System.out.println("dame la inicial de la que me quieras mostrar cada palabra que contiene");
+        System.out.println("Give me the initial word that you want to show me all the words that it has");
         String letter = SCANNER.nextLine().toLowerCase();
         if (letter.length() == 1) {
             if (letter.isEmpty()) {
-                System.out.println("No has escrito ninguna inicial");
+                System.out.println("you dont writed any initial letter");
             } else {
                 switch (letter) {
                     case "a":
 
                         if (wordA.isEmpty()) {
-                            System.out.println("no existe nada almacenado con la letra a");
+                            System.out.println("It dont exist anything saved with the letter a");
                         } else {
                             System.out.println(wordA);
                         }
@@ -1201,7 +1191,7 @@ public class SortOut {
                     case "b":
 
                         if (wordB.isEmpty()) {
-                            System.out.println("no existe nada almacenado con la letra b");
+                            System.out.println("It dont exist anything saved with the letter b");
                         } else {
                             System.out.println(wordB);
                         }
@@ -1209,7 +1199,7 @@ public class SortOut {
                     case "c":
 
                         if (wordC.isEmpty()) {
-                            System.out.println("no existe nada almacenado con la letra c");
+                            System.out.println("It dont exist anything saved with the letter c");
                         } else {
                             System.out.println(wordC);
                         }
@@ -1217,7 +1207,7 @@ public class SortOut {
                     case "d":
 
                         if (wordD.isEmpty()) {
-                            System.out.println("no existe nada almacenado con la letra d");
+                            System.out.println("It dont exist anything saved with the letter d");
                         } else {
                             System.out.println(wordD);
                         }
@@ -1225,7 +1215,7 @@ public class SortOut {
                     case "e":
 
                         if (wordE.isEmpty()) {
-                            System.out.println("no existe nada almacenado con la letra e");
+                            System.out.println("It dont exist anything saved with the letter e");
                         } else {
                             System.out.println(wordE);
                         }
@@ -1233,7 +1223,7 @@ public class SortOut {
                     case "f":
 
                         if (wordF.isEmpty()) {
-                            System.out.println("no existe nada almacenado con la letra f");
+                            System.out.println("It dont exist anything saved with the letter f");
                         } else {
                             System.out.println(wordF);
                         }
@@ -1241,14 +1231,14 @@ public class SortOut {
                     case "g":
 
                         if (wordG.isEmpty()) {
-                            System.out.println("no existe nada almacenado con la letra g");
+                            System.out.println("It dont exist anything saved with the letter g");
                         } else {
                             System.out.println(wordG);
                         }
                         break;
                     case "h":
                         if (wordH.isEmpty()) {
-                            System.out.println("no existe nada almacenado con la letra h");
+                            System.out.println("It dont exist anything saved with the letter h");
                         } else {
                             System.out.println(wordH);
                         }
@@ -1256,7 +1246,7 @@ public class SortOut {
                     case "i":
 
                         if (wordI.isEmpty()) {
-                            System.out.println("no existe nada almacenado con la letra i");
+                            System.out.println("It dont exist anything saved with the letter i");
                         } else {
                             System.out.println(wordI);
                         }
@@ -1264,7 +1254,7 @@ public class SortOut {
                     case "j":
 
                         if (wordJ.isEmpty()) {
-                            System.out.println("no existe nada almacenado con la letra j");
+                            System.out.println("It dont exist anything saved with the letter j");
                         } else {
                             System.out.println(wordJ);
                         }
@@ -1272,7 +1262,7 @@ public class SortOut {
                     case "k":
 
                         if (wordK.isEmpty()) {
-                            System.out.println("no existe nada almacenado con la letra k");
+                            System.out.println("It dont exist anything saved with the letter k");
                         } else {
                             System.out.println(wordK);
                         }
@@ -1280,7 +1270,7 @@ public class SortOut {
                     case "m":
 
                         if (wordM.isEmpty()) {
-                            System.out.println("no existe nada almacenado con la letra m");
+                            System.out.println("It dont exist anything saved with the letter m");
                         } else {
                             System.out.println(wordM);
                         }
@@ -1288,7 +1278,7 @@ public class SortOut {
                     case "n":
 
                         if (wordN.isEmpty()) {
-                            System.out.println("no existe nada almacenado con la letra n");
+                            System.out.println("It dont exist anything saved with the letter n");
                         } else {
                             System.out.println(wordN);
                         }
@@ -1296,7 +1286,7 @@ public class SortOut {
                     case "ñ":
 
                         if (wordÑ.isEmpty()) {
-                            System.out.println("no existe nada almacenado con la letra ñ");
+                            System.out.println("It dont exist anything saved with the letter ñ");
                         } else {
                             System.out.println(wordÑ);
                         }
@@ -1304,7 +1294,7 @@ public class SortOut {
                     case "o":
 
                         if (wordO.isEmpty()) {
-                            System.out.println("no existe nada almacenado con la letra o");
+                            System.out.println("It dont exist anything saved with the letter o");
                         } else {
                             System.out.println(wordO);
                         }
@@ -1312,7 +1302,7 @@ public class SortOut {
                     case "p":
 
                         if (wordP.isEmpty()) {
-                            System.out.println("no existe nada almacenado con la letra p");
+                            System.out.println("It dont exist anything saved with the letter p");
                         } else {
                             System.out.println(wordP);
                         }
@@ -1320,7 +1310,7 @@ public class SortOut {
                     case "q":
 
                         if (wordQ.isEmpty()) {
-                            System.out.println("no existe nada almacenado con la letra q");
+                            System.out.println("It dont exist anything saved with the letter q");
                         } else {
                             System.out.println(wordQ);
                         }
@@ -1328,7 +1318,7 @@ public class SortOut {
                     case "r":
 
                         if (wordR.isEmpty()) {
-                            System.out.println("no existe nada almacenado con la letra r");
+                            System.out.println("It dont exist anything saved with the letter r");
                         } else {
                             System.out.println(wordR);
                         }
@@ -1336,7 +1326,7 @@ public class SortOut {
                     case "s":
 
                         if (wordS.isEmpty()) {
-                            System.out.println("no existe nada almacenado con la letra s");
+                            System.out.println("It dont exist anything saved with the letter s");
                         } else {
                             System.out.println(wordS);
                         }
@@ -1344,7 +1334,7 @@ public class SortOut {
                     case "t":
 
                         if (wordT.isEmpty()) {
-                            System.out.println("no existe nada almacenado con la letra t");
+                            System.out.println("It dont exist anything saved with the letter t");
                         } else {
                             System.out.println(wordT);
                         }
@@ -1352,7 +1342,7 @@ public class SortOut {
                     case "u":
 
                         if (wordU.isEmpty()) {
-                            System.out.println("no existe nada almacenado con la letra u");
+                            System.out.println("It dont exist anything saved with the letter u");
                         } else {
                             System.out.println(wordU);
                         }
@@ -1360,7 +1350,7 @@ public class SortOut {
                     case "v":
 
                         if (wordV.isEmpty()) {
-                            System.out.println("no existe nada almacenado con la letra v");
+                            System.out.println("It dont exist anything saved with the letter v");
                         } else {
                             System.out.println(wordV);
                         }
@@ -1368,7 +1358,7 @@ public class SortOut {
                     case "w":
 
                         if (wordW.isEmpty()) {
-                            System.out.println("no existe nada almacenado con la letra w");
+                            System.out.println("It dont exist anything saved with the letter w");
                         } else {
                             System.out.println(wordW);
                         }
@@ -1376,7 +1366,7 @@ public class SortOut {
                     case "x":
 
                         if (wordX.isEmpty()) {
-                            System.out.println("no existe nada almacenado con la letra x");
+                            System.out.println("It dont exist anything saved with the letter x");
                         } else {
                             System.out.println(wordX);
                         }
@@ -1384,7 +1374,7 @@ public class SortOut {
                     case "y":
 
                         if (wordY.isEmpty()) {
-                            System.out.println("no existe nada almacenado con la letra y");
+                            System.out.println("It dont exist anything saved with the letter y");
                         } else {
                             System.out.println(wordY);
                         }
@@ -1392,20 +1382,20 @@ public class SortOut {
                     case "z":
 
                         if (wordA.isEmpty()) {
-                            System.out.println("no existe nada almacenado con la letra z");
+                            System.out.println("It dont exist anything saved with the letter z");
                         } else {
                             System.out.println(wordZ);
                         }
                         break;
                                                                                                                                                                                                                                                                                                                                                 
                     default:
-                        System.out.println("no has introducido una inicial válida");
+                        System.out.println("You dont introduced a valid initial");
                         break;
                 }
             }
             
         } else {
-            System.out.println("Has excedido el número de caracteres para poner una letra inicial");
+            System.out.println("You exceeded the amount of characters for putting a initial.");
         }
     }
 }
