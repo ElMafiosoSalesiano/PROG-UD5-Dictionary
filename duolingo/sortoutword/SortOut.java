@@ -979,7 +979,6 @@ public class SortOut {
     }
 
     public static void showInitials(){
-        final Scanner SCANNER = new Scanner(System.in);
         if (wordA.isEmpty() && wordB.isEmpty() && wordC.isEmpty() && wordD.isEmpty() && wordE.isEmpty() && wordF.isEmpty() && wordG.isEmpty() && wordH.isEmpty() && wordI.isEmpty()
         && wordJ.isEmpty() && wordK.isEmpty() && wordM.isEmpty() && wordN.isEmpty() && wordO.isEmpty() && wordP.isEmpty() && wordQ.isEmpty() && wordR.isEmpty() &&
         wordS.isEmpty() && wordT.isEmpty() && wordU.isEmpty() && wordV.isEmpty() && wordW.isEmpty() && wordX.isEmpty() && wordY.isEmpty() && wordZ.isEmpty()) {
