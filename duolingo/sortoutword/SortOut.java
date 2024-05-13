@@ -1022,7 +1022,7 @@ public class SortOut {
             sortWord.remove("x");
             sortWord.remove("y");
             sortWord.remove("z");
-            System.out.println("any initial letter have storaged any word");
+            System.out.println("none initial letter have storaged none word");
 
         } else {
             System.out.println("All inital letters that keep saving words;");
