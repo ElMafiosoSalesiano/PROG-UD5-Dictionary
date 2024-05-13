@@ -51,7 +51,9 @@ public class Main {
                     System.out.println("You dont give a correct option");
                     break;
             }
-        } while (stillOn);        
-        
+        } while (stillOn);
+
+        SCANNER.close();
+           
     }
 }
